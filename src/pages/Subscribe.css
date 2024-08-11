@@ -1,0 +1,179 @@
+
+.join {
+    text-align: center;
+    font-size: 45px;
+padding-top: 30px;
+letter-spacing: 2px;
+color: black;
+text-shadow: 2px 2px 5px white;
+}
+
+
+
+.joinUs {
+    width: 100px;
+    height: 200px;
+   position: absolute;
+   top: -45px;
+   right: 490px;
+}
+.joinUs1 {
+    width: 100px;
+    height: 200px;
+   position: absolute;
+   top: -45px;
+   left: 490px;
+}
+
+.welcom {
+    width: 100px;
+    height: 200px;
+   position: absolute;
+   top: -45px;
+   right: 450px;
+}
+.welcom1 {
+    width: 100px;
+    height: 200px;
+   position: absolute;
+   top: -45px;
+   left: 450px;
+}
+
+.Logn-container {
+    background-color: #e7e95e;
+    height: 100vh;
+    overflow-y: hidden;
+}
+.sub-container {
+    background-color: #e7e95e;
+    height: 100vh;
+    overflow-y: hidden;
+}
+.Logn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75%;  
+}
+.sub {
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85%;
+}
+
+.Sarokh {
+    width: 140px;
+    height: auto;
+    position: absolute;
+    top: 130px;
+    left: 400px;
+}
+
+.gelaxy {
+    width: 140px;
+    height: auto;
+    position: absolute;
+    top: 135px;
+    right: 400px;
+}
+
+.sub .Sarokh {
+    width: 160px;
+    height: auto;
+    position: absolute;
+    top: 65px;
+    left: 400px;
+}
+
+.sub .gelaxy {
+    width: 160px;
+    height: auto;
+    position: absolute;
+    top: 75px;
+    right: 400px;
+}
+
+.form {
+    border: 6px solid #0A1D56;
+    width: 40%;
+display: flex;
+align-items: center;
+justify-content: center;
+ height: 80%;
+}
+
+.form label{
+    display: block;
+    font-size: 35px;
+    padding: 30px;
+    color: black;
+    text-shadow: 2px 2px 5px white;
+}
+
+.form input {
+    width: 400px;
+    height: 80px;
+    border: 2px solid #492E87;
+    padding: 5px;
+    font-size: 23px;
+    outline-color: none;
+    display: block;
+    margin: 20px;
+}
+
+.form button {
+    font-size: 35px;
+    color: black;
+    text-shadow: 2px 2px 5px white;
+    display: block;
+transition: 0.2s;
+background-color: white;
+width: 250px;
+margin: 10px;
+height: 60px;
+border: #0A1D56 2px solid;
+}
+
+.form button:hover{
+   background: transparent;
+    letter-spacing: 3px;
+}
+.form .login:hover , .form .signup:hover{
+   
+    background: transparent;
+    cursor: pointer;
+}
+.Duck {
+    width: 400px;
+    height: auto;
+position: absolute;
+bottom: 20px;
+right: 0px;
+}
+
+.Logn {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.Logn button {
+    display: inline;
+    font-size: 25px;
+    color: black;
+    text-shadow: 2px 2px 5px white;
+transition: 0.2s;
+background-color: white;
+width: 140px;
+margin: 10px;
+height: 60px;
+border: #0A1D56 2px solid;
+}
+
+.Logn .log {
+    background-color: transparent;
+}
+
+

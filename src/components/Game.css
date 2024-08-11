@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+        font-family: "Pixelify Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+}
+
+.tic-reset {
+padding: 10px;
+background-color: transparent;
+color: white;
+text-shadow: 2px 2px 5px black;
+border-radius: 6px;
+border: white 2px solid;
+font-size: 25px;
+transition: 0.3s;
+}
+
+.tic-reset:hover {
+    color: black;
+    background-color: #BFFB4F;
+    border: #BFFB4F 2px solid;
+    letter-spacing: 2px;
+}
+
+.tic-home {
+    width: 60px;
+    height: 60px;
+   position: absolute;
+   top: 30px;
+   left: 60px;
+}
+
+.tic-home:hover {
+    cursor: pointer;
+}
+
+.match-Btn {
+    font-size: 25px;
+    padding: 5px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid 20;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    transition: 0.3s;
+    text-shadow: 2px 2px 5px black;
+    }
+    
+    .match-Btn:hover {
+        text-decoration: solid;
+        color: black;
+        letter-spacing: 3px;
+        font-weight: 900;
+        text-shadow: 5px 5px 10px white;
+    }
+
+    .match-card {
+        position: relative;
+    }
+    
+    .match-card img {
+        width: 100%;
+        display: block;
+        border: 2px solid #EDE4FF;
+
+    }
+    
+    .match-card .front {
+        transform: rotateY(90deg);
+        position: absolute;
+        transition: all ease-in 0.2s;
+    }
+    
+    .match-flipped .front {
+        transform: rotateY(0deg);
+        transition-delay: 0.1s;
+    }
+    
+    .match-card .cover {
+    transition: all ease-in 0.2s;
+    transition-delay: 0.1s;
+    }
+    
+    .match-flipped .cover {
+        transform: rotateY(90deg);
+        transition-delay: 0;
+    }
+
+    .cellStyle {
+        width: 70px;
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        font-size: 40px;
+        font-weight: 800;
+      }
+      
+      
+      
+      .tryAgain {
+        cursor: pointer;
+        font-size: 30px;
+        color: #FDFFD2;
+        padding: 10px;
+        font-weight: 700;
+        transition: 0.2s;
+      }
+      
+      .tryAgain:hover {
+        letter-spacing: 2px;
+        text-shadow: 2px 2px 5px black;
+      }
+      
+
+
+      .Hangman{
+        margin: 0 auto;
+      }
+      
+      .Hangman-title {
+        padding: 30px 0px;
+          text-align: center;
+          font-size: 50px;
+          letter-spacing: 3px;
+          color: white;
+          text-shadow: 2px 2px 5px black;
+      }
+      
+      .Hangman-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+      }
+      
+      .Hangman-Gussed-sec {
+        margin-left: 100px;
+      
+      }
+      
+      .Hangman img{
+        width: 300px;
+        max-height: auto;
+      margin-bottom: 30px;
+      }
+      
+      .Hangman-key-sec {
+        margin-top: 150px;
+       margin-left: 250px;
+       margin-right: 250px;
+        text-align: center;
+      }
+      
+      .Hangman-word {
+        letter-spacing: 1em;
+        font-size: 40px;
+        text-align: center;
+        margin-bottom: 10px;
+      }
+      
+      .Hangman-btns {
+       text-align: center;
+        width: 750px;
+      }
+      
+      .Hangman button {
+        border: none;
+        font-family: inherit;
+        font-weight: 700;
+        font-size: 35px;
+        cursor: pointer;
+        width: 70px;
+        height: 70px;
+        margin: 5px 5px;
+        letter-spacing: 1px;
+        outline: none;
+        background: #f7fcf1;
+        color: black;
+        padding-top: 4px;
+      }
+      
+      .Hangman button:hover {
+        background: #96EFFF;
+      }
+      
+      .Hangman button:disabled {
+        background: #96EFFF;
+      
+      }
+      
+      #reset {
+        width: 220px;
+      margin-top: 50px;
+        background: #5FBDFF;
+        transition: 0.2s;
+        color: black;
+          text-shadow: 2px 2px 5px white;
+      
+      }
+      #reset:hover {
+        letter-spacing: 2px;
+        text-shadow: 2px 2px 5px white;
+      }
+      
+      
+      .Guessed {
+          font-size: 25px;
+          color: white;
+          text-shadow: 2px 2px 5px black;
+      }
+
+      .Guess {
+        color: white;
+        text-shadow: 2px 2px 5px black;
+        letter-spacing: 1px;
+        font-size: 25px;
+      }
+      
+      
