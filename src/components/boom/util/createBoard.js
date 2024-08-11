@@ -1,4 +1,5 @@
-export default (row, col, bombs) => {
+
+const arrow = (row, col, bombs) => {
   let board = [];
   let mineLocation = [];
   // Create blank board
@@ -93,6 +94,8 @@ export default (row, col, bombs) => {
   }
   return { board, mineLocation };
 };
+
+export default arrow
 
 function randomNum(min = 0, max) {
   // min and max included

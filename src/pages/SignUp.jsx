@@ -5,7 +5,7 @@ import Sarokh from '../sarokh.json'
 import gelaxy from '../gelaxy.json'
 import Duck from '../duck.json'
 import { useNavigate } from 'react-router-dom'
-import { useState } from 'react'
+
 
 
 export default function SignUp(){
@@ -21,16 +21,7 @@ function toHome (){
 }
 
 
-const [value , setValue ] = useState({
-    name : '',
-    email : '',
-    password : ''
 
-});
-
-const handleInput = (event) => {
-setValue(prev => ({...prev, [event.target.name]:[event.target.value]}))
-}
 
     return (
 
@@ -43,9 +34,9 @@ setValue(prev => ({...prev, [event.target.name]:[event.target.value]}))
         <Lottie animationData={gelaxy} className='gelaxy' />
             <form className='form'>
                 <div>
-                <input type="text" placeholder='Write Ur UseName .. ' onChange={handleInput} />
-<input type="email" placeholder='Write Ur Email .. ' onChange={handleInput}  />
-<input type="password" placeholder='Write Ur Pass .. ' onChange={handleInput}  /> 
+                <input type="text" placeholder='Write Ur UseName .. '  />
+<input type="email" placeholder='Write Ur Email .. '   />
+<input type="password" placeholder='Write Ur Pass .. '   /> 
 <div className='Logn'>
 <button onClick={toLogIn}>LOG IN</button>
 <button className='log' onClick={toHome} type='submite'>SIGN UP</button>

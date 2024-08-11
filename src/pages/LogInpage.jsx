@@ -5,7 +5,7 @@ import Sarokh from '../sarokh.json'
 import gelaxy from '../gelaxy.json'
 import Duck from '../duck.json'
 import { useNavigate } from 'react-router-dom'
-import { useRef , useState ,useEffect } from 'react'
+// import { useRef , useState ,useEffect } from 'react'
 
 export default function LogIn(){
 
@@ -21,27 +21,27 @@ function toHome (){
     navigate('/')
 }
 
-const userRef = useRef();
-const errRef = useRef();
+// const userRef = useRef();
+// const errRef = useRef();
 
-const [user , setUser] = useState('');
-const [pass , setPass] = useState('');
-const [errMsg , setErrMsg] = useState('');
+// const [user , setUser] = useState('');
+// const [pass , setPass] = useState('');
+// const [errMsg , setErrMsg] = useState('');
 
-const [sucss , setSucss] = useState(false);
+// const [sucss , setSucss] = useState(false);
 
 
-useEffect(() => {
-   setErrMsg('');
-},[user , pass])
+// useEffect(() => {
+//    setErrMsg('');
+// },[user , pass])
 
-const handleSubmit = async (e) => {
-    e.preventDefault();
-    console.log(user, pass)
-setUser('')
-setPass('');
-setSucss(true);
-}
+// const handleSubmit = async (e) => {
+//     e.preventDefault();
+//     console.log(user, pass)
+// setUser('')
+// setPass('');
+// setSucss(true);
+// }
     return (
     <div className="Logn-container">
     <Lottie animationData={joinUs} className='welcom' />
@@ -50,15 +50,13 @@ setSucss(true);
 <div className='Logn'>
 <Lottie animationData={Sarokh} className='Sarokh' />
 <Lottie animationData={gelaxy} className='gelaxy' />
-<form className='form' onSubmit={handleSubmit}>
+<form className='form' >
   <div>
-<input type="text" placeholder='Write Ur UserName .. ' 
-ref={userRef} autoComplete='off' onChange={(e) => setUser(e.target.value)}
-value={user} required/>
-<input type="password" placeholder='Write Ur Pass .. ' 
-onChange={(e) => setPass(e.target.value)} value={pass} required/> 
+<input type="text" placeholder='Write Ur UserName .. 'autoComplete='off'
+ required/>
+<input type="password" placeholder='Write Ur Pass .. ' required/> 
 <div className='Logn'>
-<button className='log'  type='submite'>LOG IN</button>
+<button className='log'  type='submite' onClick={toHome}>LOG IN</button>
 <button onClick={toSignUp}>SIGN UP</button>
 </div>
 </div>    
