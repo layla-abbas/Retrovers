@@ -468,7 +468,7 @@ margin-bottom: 300px;
            top: 290px;
        }
        .circle {
-        top: 130%;
+         top: 130%;
        }
    
        .cardcontent h2 {
@@ -822,7 +822,7 @@ margin-bottom: 300px;
     
     }
     .circle {
-        top: 125%;
+        top: 90%;
     }
 
 
@@ -878,7 +878,7 @@ margin: 20px;
         
         }
     .circle {
-        top: 125%;
+        top: 90%;
     }
 
 
@@ -941,7 +941,7 @@ margin: 20px;
             font-size: 35px;
         }
     .circle {
-        top: 125%;
+        top: 90%;
     }
     .cardcontent h2 {
         font-size: 35px;
@@ -1031,7 +1031,7 @@ margin: 20px;
 
     .circle {
         right: 5%;
-        width: 125%;
+        width: 30%;
         top: 83%;
     }
     .cardcontent h2 {
@@ -1149,7 +1149,7 @@ margin: 20px;
 
     .circle {
         right: 5%;
-        width: 95%;
+        width: 35%;
         top: 78%;
     }
     .cardcontent h2 {
@@ -1274,7 +1274,7 @@ margin: 20px;
 
     .circle {
         right: 5%;
-        width: 95%;
+        width: 35%;
         top: 78%;
     }
     .cardcontent h2 {
@@ -1404,7 +1404,7 @@ margin: 20px;
 
     .circle {
         right: 5%;
-        width: 95%;
+        width: 35%;
         top: 78%;
     }
     .cardcontent h2 {
@@ -1537,7 +1537,7 @@ margin: 20px;
 
     .circle {
         right: 5%;
-        width: 95%;
+        width: 35%;
         top: 65%;
     }
     .cardcontent h2 {
@@ -1679,7 +1679,7 @@ margin: 20px;
 
     .circle {
         right: 5%;
-        width: 95%;
+        width: 35%;
         top: 60%;
     }
     .cardcontent h2 {
@@ -1843,7 +1843,7 @@ margin-right: 10px;
 
     .circle {
         right: 5%;
-        width: 95%;
+        width: 35%;
         top: 60%;
     }
     .cardcontent h2 {
@@ -1871,7 +1871,7 @@ justify-content: space-between;
 
     .card:hover {
         width: 355px;
-        height: 155;
+        height: 155px;
     }
 
     .card img {
