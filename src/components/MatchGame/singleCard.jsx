@@ -14,16 +14,8 @@ export default function Singlecard({ card , handleChoice , flipped , disabeld}) 
   return (
                             <div className='match-card' >
                         <div className={flipped ? 'match-flipped' : ''}>
-                            <img className='front' src={card.src} alt="card front" 
-                            style={{
-                              width:'170px',
-                              height:'170px'
-                            }} />
-                            <img className='cover'
-                                style={{
-                                  width:'170px',
-                                  height:'170px'
-                                }}
+                            <img className='match-front' src={card.src} alt="card front"  />
+                            <img className='match-cover'
                              onClick={handleClick} src={cover} alt="card cover" />
                         </div>
                     </div>

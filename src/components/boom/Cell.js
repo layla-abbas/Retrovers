@@ -18,7 +18,7 @@ export default function Cell({ details, updateFlag, revealCell }) {
       onContextMenu={(e) => updateFlag(e, details.x, details.y)}
       onClick={() => revealCell(details.x, details.y)}
       style={cellstyle}
-      className="cellStyle"
+      className="boom-cellStyle"
     >
       {!details.revealed && details.flagged ? (
         "🚩"

@@ -1,5 +1,5 @@
 :root {
-    --tile-size : 100px;
+    --tile-size : 80px;
     --light-tile : #FFF6E9;
     --dark-tile : #80C4E9;
     --bg-color : #604CC3;
@@ -7,8 +7,60 @@
     --check : #FEEC48;
 }
 
-@media all and (max-width: 450px) {
+@media screen and (max-width:1000px) and (min-width:800px) {
+    :root {
+        --tile-size : 70px;
+    }
+}
+
+@media screen and (max-width:800px) and (min-width:750px) {
+    :root {
+        --tile-size : 65px;
+    }
+}
+@media screen and (max-width:750px) and (min-width:700px) {
+    :root {
+        --tile-size : 60px;
+    }
+}
+
+@media screen and (max-width:700px) and (min-width:650px) {
+    :root {
+        --tile-size : 55px;
+    }
+}
+@media screen and (max-width:650px) and (min-width:600px) {
     :root {
         --tile-size : 50px;
+    }
+}
+
+@media screen and (max-width:600px) and (min-width:550px) {
+    :root {
+        --tile-size : 45px;
+    }
+}
+
+@media screen and (max-width:550px) and (min-width:500px) {
+    :root {
+        --tile-size : 40px;
+    }
+}
+
+@media screen and (max-width:500px) and (min-width:450px) {
+    :root {
+        --tile-size : 35px;
+    }
+}
+
+@media screen and (max-width:450px) and (min-width:400px) {
+    :root {
+        --tile-size : 30px;
+    }
+}
+
+@media screen and (max-width:400px) and (min-width:350px) {
+    :root {
+        --tile-size : 25px;
     }
 }

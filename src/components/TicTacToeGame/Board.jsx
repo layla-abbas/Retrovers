@@ -6,13 +6,7 @@ const Board = ({ cells, onClick }) => {
       gridTemplateRows: '1fr 1fr 1fr',
     }}>
       {cells.map((cell, index) => (
-        <button key={index} className="square" style={{height:'150px' ,
-         width:'150px' ,
-          fontSize:'75px',
-          border: '5px solid white' , 
-          backgroundColor: 'transparent' , 
-          color: '#BFFB4F', }}
-           onClick={() => onClick(index)}>
+        <button key={index} className="tictac-square" onClick={() => onClick(index)}>
           {cell}
         </button>
       ))}

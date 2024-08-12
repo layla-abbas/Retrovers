@@ -71,15 +71,7 @@ let navigate = useNavigate()
   }
   return (
     <div style={{ backgroundColor: "#667BC6", height: "100vh" }}>
-      <h1
-        style={{
-          textAlign: "center",
-          color: "#FDFFD2",
-          padding: "20px 0px",
-          textShadow: "2px 2px 5px black",
-          fontSize:'50px'
-        }}
-      >
+      <h1 className="boom-title">
         Minesweeper
       </h1>
       <img className='tic-home' alt="" src={home} onClick={toHome}/>

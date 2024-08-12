@@ -9,12 +9,21 @@
         font-style: normal;
 }
 
+.tictac-title {
+  text-align: center;
+  margin: 20px;
+  color: white;
+  text-shadow: 2px 2px 5px black;
+  font-size: 50px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-weight: 900;
+}
 .tic-reset {
-padding: 10px;
+padding: 5px;
 background-color: transparent;
 color: white;
 text-shadow: 2px 2px 5px black;
-border-radius: 6px;
 border: white 2px solid;
 font-size: 25px;
 transition: 0.3s;
@@ -37,6 +46,23 @@ transition: 0.3s;
 
 .tic-home:hover {
     cursor: pointer;
+}
+
+.tictac-winner {
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    margin-bottom: 25px;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+.tictac-square{
+height:150px;
+    width:150px;
+     font-size:75px;
+     border: 5px solid white ;
+     background-color: transparent; 
+     color: #BFFB4F;
 }
 
 .match-Btn {
@@ -70,41 +96,71 @@ transition: 0.3s;
 
     }
     
-    .match-card .front {
+    .match-card .match-front {
         transform: rotateY(90deg);
         position: absolute;
         transition: all ease-in 0.2s;
     }
     
-    .match-flipped .front {
+    .match-flipped .match-front {
         transform: rotateY(0deg);
         transition-delay: 0.1s;
     }
     
-    .match-card .cover {
+    .match-card .match-cover {
     transition: all ease-in 0.2s;
     transition-delay: 0.1s;
     }
     
-    .match-flipped .cover {
+    .match-flipped .match-cover {
         transform: rotateY(90deg);
         transition-delay: 0;
     }
+    .match-front , .match-cover {
+      width: 130px;
+height: 130px;
+    }
 
-    .cellStyle {
-        width: 70px;
-        height: 70px;
+    .match-title {
+      letter-spacing: 3px;
+      margin: 15px;
+      font-size: 40px;
+      font-weight: 900;
+      color: white;
+      text-shadow: 2px 2px 5px black;
+    }
+
+    .match-turns {
+      color: white;
+      margin-top: 10px;
+      font-size: 25px;
+    }
+
+
+
+
+    .boom-title {
+      text-align: center;
+      color: #FDFFD2;
+      padding: 20px 0px;
+      text-shadow: 2px 2px 5px black;
+      font-size:45px;
+  }
+
+    .boom-cellStyle {
+        width: 55px;
+        height: 55px;
         display: flex;
         justify-content: center;
         align-items: center;
         cursor: pointer;
-        font-size: 40px;
+        font-size: 30px;
         font-weight: 800;
       }
       
       
       
-      .tryAgain {
+      .boom-tryAgain {
         cursor: pointer;
         font-size: 30px;
         color: #FDFFD2;
@@ -113,7 +169,7 @@ transition: 0.3s;
         transition: 0.2s;
       }
       
-      .tryAgain:hover {
+      .boom-tryAgain:hover {
         letter-spacing: 2px;
         text-shadow: 2px 2px 5px black;
       }
@@ -222,4 +278,198 @@ transition: 0.3s;
         font-size: 25px;
       }
       
-      
+
+
+ @media screen and (max-width:1000px) and (min-width:700px) {
+  
+.tic-home {
+  width: 50px;
+    height: 50px;
+}
+        .match-front , .match-cover  {
+width: 110px;
+height: 110px;
+        }
+        .match-title {
+          font-size: 35px;
+        }
+        .match-turns ,  .match-Btn , .tictac-winner ,.tic-reset {
+          font-size: 25px;
+        }
+
+        .tictac-title {
+          font-size: 40px;
+        }
+        .tictac-square{
+          height:130px;
+              width:130px;
+              font-size:65px;
+             }
+
+
+             .boom-cellStyle {
+              width: 45px;
+              height: 45px;
+              font-size: 25px;
+             }
+
+             .boom-tryAgain {
+              font-size: 25px;
+             }
+             .boom-title {
+             font-size: 45px;
+             }
+          
+      }
+
+      @media screen and (max-width:700px) and (min-width:600px) {
+        .tic-home {
+          width: 40px;
+            height: 40px;
+            left: 50px;
+        }
+        .match-front , .match-cover   {
+width: 100px;
+height: 100px;
+        }
+        .match-title {
+          font-size: 30px;
+        }
+        .match-turns ,  .match-Btn , .tictac-winner ,.tic-reset ,.boom-tryAgain{
+          font-size: 20px;
+        }
+  
+        .tictac-title {
+          font-size: 40px;
+        }
+        .tictac-square{
+          height:130px;
+              width:130px;
+              font-size:65px;
+             }
+
+             .boom-cellStyle {
+              width: 35px;
+              height: 35px;
+              font-size: 20px;
+             }
+
+             .boom-title {
+             font-size: 35px;
+             margin-bottom: 20px;
+             }
+      }
+
+      @media screen and (max-width:600px) and (min-width:500px) {
+        .tic-home {
+          width: 35px;
+            height: 35px;
+            left:40px;
+        }
+        .match-front , .match-cover  {
+width: 80px;
+height: 80px;
+        }
+        .match-title {
+          font-size: 25px;
+        }
+        .match-turns ,  .match-Btn , .tictac-winner ,.tic-reset , .boom-tryAgain {
+          font-size: 20px;
+        }
+        .tictac-title {
+          font-size: 35px;
+        }
+        .tictac-square{
+          height:110px;
+              width:110px;
+              font-size:50px;
+             }
+
+             .boom-cellStyle {
+              width: 30px;
+              height: 30px;
+              font-size: 20px;
+             }
+
+             .boom-title {
+             font-size: 30px;
+             margin-bottom: 20px;
+             }
+      }
+
+      @media screen and (max-width:500px) and (min-width:400px) {
+        .tic-home {
+          width: 30px;
+            height: 30px;
+            left:30px;
+        }
+        .match-front , .match-cover  {
+width: 65px;
+height: 65px;
+        }
+        .match-title {
+          font-size: 20px;
+        }
+        .match-turns ,  .match-Btn , .tictac-winner ,.tic-reset , .boom-tryAgain{
+          font-size: 15px;
+        }
+        .tictac-title {
+          font-size: 35px;
+        }
+        .tictac-square{
+          height:100px;
+              width:100px;
+              font-size:45px;
+             }
+
+             .boom-cellStyle {
+              width: 25px;
+              height: 25px;
+              font-size: 15px;
+             }
+
+             .boom-title {
+             font-size: 25px;
+             margin-bottom: 20px;
+             }
+      }
+
+      @media screen and (max-width:400px) and (min-width:300px) {
+        .tic-home {
+          width: 25px;
+            height: 25px;
+            left:20px;
+        }
+        .match-front , .match-cover  {
+width: 55px;
+height: 55px;
+        }
+        .match-title {
+          font-size: 15px;
+        }
+        .match-turns ,  .match-Btn , .tictac-winner ,.tic-reset ,.boom-tryAgain {
+          font-size: 15px;
+        }
+
+        .tictac-title {
+          font-size: 35px;
+        }
+        .tictac-square{
+          height:90px;
+              width:90px;
+              font-size:40px;
+             }
+
+
+             .boom-cellStyle {
+              width: 20px;
+              height: 20px;
+              font-size: 12px;
+             }
+
+             .boom-title {
+             font-size: 20px;
+             margin-bottom: 20px;
+             }
+      }
+

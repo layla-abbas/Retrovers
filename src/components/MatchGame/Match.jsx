@@ -104,15 +104,7 @@ function toHome(){
         }}
         >
               <img src={home} alt="" className='tic-home' onClick={toHome}/>
-            <h1 style={{
-                    letterSpacing: '3px',
-                    margin: '15px',
-                    fontSize: '40px',
-                    fontWeight: '900',
-                    color: 'white' ,
-                    textShadow: '2px 2px 5px black',
-            }}
-            >IMAGE MATCH</h1>
+            <h1 className='match-title'>IMAGE MATCH</h1>
             <button onClick={shuffleCards} className='match-Btn'>New Game</button>
 
 <div className='match-card' 
@@ -137,13 +129,7 @@ handleChoice={handleChoice}
                 ))}
             </div>
             </div>
-            <p
-            style={{
-                color: 'white',
-                marginTop: '10px',
-                fontSize: '25px',
-            }}
-            >Turns : {turns}</p>
+            <p className='match-turns' >Turns : {turns}</p>
         </div>
     )
 }

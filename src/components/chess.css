@@ -23,3 +23,72 @@ html,body {
   margin: 10px 0;
   font-size: 25px;
 } 
+
+
+@media screen and (max-width:1000px) and (min-width:800px) {
+  .chessBtn {
+    padding: 10px 30px;
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width:800px) and (min-width:750px) {
+  .chessBtn {
+    padding: 8px 20px;
+    font-size: 20px;
+  }
+}
+@media screen and (max-width:750px) and (min-width:700px) {
+  .chessBtn {
+    padding: 8px 15px;
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width:700px) and (min-width:650px) {
+  .chessBtn {
+    padding: 8px 15px;
+    font-size: 18px;
+  }
+}
+@media screen and (max-width:650px) and (min-width:600px) {
+  .chessBtn {
+    padding: 8px 10px;
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width:600px) and (min-width:550px) {
+  .chessBtn {
+    padding: 8px 10px;
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width:550px) and (min-width:500px) {
+  .chessBtn {
+    padding: 4px 18px;
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width:500px) and (min-width:450px) {
+  .chessBtn {
+    padding: 4px 15px;
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width:450px) and (min-width:400px) {
+  .chessBtn {
+    padding: 4px 15px;
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width:400px) and (min-width:350px) {
+  .chessBtn {
+    padding: 4px 15px;
+    font-size: 10px;
+  }
+}

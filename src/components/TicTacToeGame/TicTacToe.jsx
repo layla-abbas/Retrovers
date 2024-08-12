@@ -66,23 +66,11 @@ const TicTacToe = () => {
   }
   return (
     <div className="tictac" style={{background:'#4B70F5' , height:'100vh' , overflow:'hidden'}}>
-        <img src={home} alt="" className='tic-home' onClick={toHome} style={{width: '60px',
-    height: '60px',
-   position: 'absolute',
-   top: '30px',
-   left: '60px',
-   }}/>
+        <img src={home} alt="" className='tic-home' onClick={toHome} />
          <div className="title">
-            <h1
+            <h1 className='tictac-title'
             style={{
-              textAlign: 'center',
-              margin:' 40px',
-              color: 'white' ,
-              textShadow: '2px 2px 5px black',
-              fontSize: '60px' ,
-              letterSpacing: '3px',
-              textTransform:' uppercase',
-              fontWeight: '900',
+      
             }}
             >Tic Tac Toe</h1>
         </div>
@@ -94,17 +82,9 @@ const TicTacToe = () => {
       </div>
       <div className="game-info" style={{
           textAlign:' center',
-          margin: '20px',
+          margin: '10px',
       }}>
-        <div className='winner'
-        style={{
-          color: 'white',
-          textShadow: '2px 2px 5px black',
-          marginBottom: '25px',
-          fontSize: '30px',
-          letterSpacing: '2px',
-        }}
-        >{renderStatus()}</div>
+        <div className='tictac-winner'>{renderStatus()}</div>
         <button className='tic-reset' onClick={handleReset}>Reset Game</button>
       </div>
     </div>
