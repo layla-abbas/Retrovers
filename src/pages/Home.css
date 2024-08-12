@@ -7,6 +7,7 @@
         font-optical-sizing: auto;
         font-weight: 500;
         font-style: normal;
+        overflow-x: hidden;
 }
 
 html {
@@ -92,19 +93,19 @@ animation: Btn 1s steps(8) forwards;
 
 
 .left {
-    width: 80px;
-    height: 80px;
+    width: 5.5%;
+    height: auto;
     position: absolute;
     top: 280px;
-left: 350px;
+left: 25%;
 }
 
 .right {
-    width: 80px;
-    height: 80px;
+    width: 5.5%;
+    height: auto;
     position: absolute;
     top: 280px;
-right: 350px;
+right: 25%;
 
 }
 
@@ -116,14 +117,14 @@ right: 350px;
 }
 
 .pacman {
-    width: 370px;
+    width: 25%;
     height: auto;
 animation: pac 10s linear infinite;
 }
 
 @keyframes pac {
     0%{
-        transform: translateX(500%);
+        transform: translateX(400%);
     }
     100%{
         transform: translateX(-100%);
@@ -134,17 +135,17 @@ animation: pac 10s linear infinite;
 
 .heart {
     position: absolute;
-    top: 25px;
-    right: 170px;
-    width: 190px;
+    top: 28px;
+    right: 10%;
+    width: 12%;
     height: auto;
 }
 
 .threeheart {
     position: absolute;
     top: 25px;
-    left: 150px;
-    width: 190px;
+    left: 9.5%;
+    width: 12%;
     height: auto;
 }
 
@@ -155,26 +156,16 @@ animation: pac 10s linear infinite;
 
 
 .circle {
-    scale: .5;
-    position: relative;
-    top: -1750px;
-    right: -1050px;
-    animation: circle 3s infinite;
-    z-index: 2;
+    position: absolute;
+    right: 10%;
+    top: 125%;
+  
+    width: 25%;
+    height: auto;
 }
 
-@keyframes circle {
-    50% {
-        transform: rotateY(180deg);
-    }
-}
 
-.insidecircle {
-    scale: .5;
-position: absolute;
-top: 1160px;
-left: 1300px;
-}
+
 
 .cardcontent  {
 margin: 180px 100px;
@@ -198,14 +189,14 @@ text-align: center;
 }
 
 .line2 {
-    margin-top: -720px;
+    margin-top: 70px;
 }
 
 .card {
     width: 260px;
     height: 370px;
     background-color: #261a46;
-    margin-top: -220px;
+    margin-top: -250px;
     margin-left: 20px;
     margin-right: 20px;
     border-radius: 10px;
@@ -223,14 +214,18 @@ text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
+    overflow-x: visible;
 
 }
 
 .cardsScontainer {
     margin-top: -200px;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    overflow-x: visible;
 }
 
 
@@ -242,7 +237,7 @@ text-align: center;
 .card button {
     color: white;
     font-size: 30px;
-    margin-top: 70px;
+    margin-top: 24%;
     margin-left: 10px;
 }
 
@@ -250,17 +245,25 @@ text-align: center;
     cursor: pointer;
 }
 
+.card img {
+    width: 90%;
+    margin: 0px auto;
+}
 
 .two .match {
     padding: 20px 10px;
 }
 
-.two button {
+/* .two button {
     margin-top: 54px;
-}
+} */
 
 .four img{
-    padding: 20px 10px;
+    padding: 20px 0px;
+}
+
+.four button {
+    margin-top: 40%;
 }
 
 .five img {
@@ -272,12 +275,11 @@ text-align: center;
 
 .chesscard {
     padding-top: 20px;
-    width: 250px;
-    margin: 0 auto;
+    width: 80%;
 }
 
 .one button {
-    margin-top: 35px;
+    margin-top: 7%;
 
 } 
 
@@ -318,11 +320,11 @@ text-align: center;
 }
 
 .pic1ani {
-    width: 160px;
+    width: 10.5%;
     height: auto;
     position: relative;
-    left: 700px;
-   top: 215px;
+    left: 46%;
+   top: 220px;
 }
 
 .pic2 {
@@ -330,10 +332,10 @@ text-align: center;
 }
 
 .sarokhpic2 {
-    width: 100px;
+    width: 6.5%;
     height: auto;
  position: relative;
-    left: 680px;
+    left: 45%;
    top: 250px;
 }
 
@@ -341,15 +343,15 @@ text-align: center;
     margin-top: -100px;
 }
 .earth {
-    width: 130px;
+    width: 8.5%;
     height: auto;
     position: relative;
-    left: 710px;
+    left: 47%;
    top: 200px;
 }
 
 .loading {
-    width: 300px ;
+    width: 20% ;
     height: auto;
 }
 
@@ -374,7 +376,7 @@ text-align: center;
 
 
 .world {
-    width: 1100px;
+    width: 70%;
     height: auto;
 }
 
@@ -397,13 +399,14 @@ text-align: center;
 }
 
 .pacman2 {
-    width: 370px;
+    width: 25%;
     height: auto;
 animation: pac 10s linear infinite;
 }
 
 .space2 {
     background-color: #FBFF00;
+    overflow-x: hidden;
 }
 
 .sec-three {
@@ -443,185 +446,1529 @@ margin-bottom: 300px;
     text-decoration-line: underline;
 }
 
-/* @media screen and (max-width:1920px) and (min-width:1800px){
+@media  screen and (max-width:2200px) and (min-width:1900px) {
     .nav li {
-        font-size: 45px;
+       font-size: 50px;
     }
 
-    .header-container{
-        text-align: center;
+    .nav ul {
+        width: 280px;
     }
-    .header-container h1 {
-        font-size:100px;
-        margin-top: 140px;
-        margin-bottom: 60px;
+    .nav ul:hover {
+        background-size: 280px; 
     }
+       .header-container h1 {
+           font-size: 80px;
+       }
+       
+       .header-container p {
+           font-size: 65px;
+       }
+       .left , .right {
+           top: 290px;
+       }
+       .circle {
+           top: 95%;
+       }
+   
+       .cardcontent h2 {
+           font-size: 45px;
+       }
+   
+       .cardcontent p {
+           font-size: 35px;
+       }
+   
+       .card {
+           width: 310px;
+           height: 420px;
+           margin-left: 25px;
+           margin-right: 25px;
+       }
+   
+       .card:hover {
+        width: 315px;
+           height: 425px;
+       }
+       .sec-one h3 {
+           font-size: 60px;
+       }
+   
+       .pic h4 {
+           font-size: 45px;
+       }
+       .pic1ani {
+          top: 255px;
+       }
+   
+       .sarokhpic2 {
+          top: 285px;
+       }
+   
+       .earth {
+          top: 245px;
+       }
+   
+       .sec-two h4 {
+           font-size: 55px;
+       }
+       
+       .sec-two p {
+           font-size: 40px;
+       }
+       
+       
+   .sec-three h4{
+       font-size: 85px; 
+       
+       }
+       
+       .sec-three h5 {
+           font-size: 55px;
+       }
+       
+       .footer h5 {
+           padding: 70px 0px;
+       }
+       
+   }
 
-    .header-container p {
-        font-size: 80px;
-    }
-
-    .left {
-        left: 430px;
-        top: 290px;
-        width: 100px;
-        height: 100px;
-    
-    }
-    
-    .right {
-        right: 430px;
-        top: 290px;
-        width: 100px;
-        height: 100px;
-        
-    }
-
-    .heart {
-        right: 210px;
-        width: 250px;
-        height: 60px;
-        top: 25px;
-    }
-    
-    .threeheart {
-        left: 210px;
-        width: 250px;
-        height: 60px;
-        top: 25px;
-    }
-    
-    .space {
-        margin-top: 130px;
-        height: 60px;
-    }
-    
-    .pacman {
-        width: 360px;
-        height: 60px;
-    }
-}
-
-
-@media screen and (max-width:1799px) and (min-width:1660px){
-
+@media  screen and (max-width:1900px) and (min-width:1750px) {
     .nav li {
-        font-size: 45px;
+       font-size: 50px;
     }
 
-    .header-container{
-        text-align: center;
+    .nav ul {
+        width: 280px;
     }
-    .header-container h1 {
-        font-size:100px;
-        margin-top: 140px;
-        margin-bottom: 60px;
+    .nav ul:hover {
+        background-size: 280px; 
     }
+       .header-container h1 {
+           font-size: 80px;
+       }
+       
+       .header-container p {
+           font-size: 65px;
+       }
+       .left , .right {
+           top: 290px;
+       }
+       .circle {
+           top: 95%;
+       }
+   
+       .cardcontent h2 {
+           font-size: 45px;
+       }
+   
+       .cardcontent p {
+           font-size: 35px;
+       }
+   
+       .card {
+           width: 290px;
+           height: 400px;
+           margin-left: 25px;
+           margin-right: 25px;
+       }
+       .card:hover {
+        width: 295px;
+        height: 405px;
+       }
 
-    .header-container p {
-        font-size: 80px;
-    }
-
-    .left {
-        left: 390px;
-        top: 300px;
-        width: 95px;
-        height: 95px;
-    
-    }
-    
-    .right {
-        right: 390px;
-        top: 300px;
-        width: 95px;
-        height: 95px;
-        
-    }
-
-    .heart {
-        right: 210px;
-        width: 250px;
-        height: 60px;
-        top: 25px;
-    }
-    
-    .threeheart {
-        left: 210px;
-        width: 250px;
-        height: 60px;
-        top: 25px;
-    }
-    
-    .space {
-        margin-top: 130px;
-        height: 60px;
-    }
-    
-    .pacman {
-        width: 360px;
-        height: 60px;
-    }
-}
+       .sec-one h3 {
+           font-size: 60px;
+       }
+   
+       .pic h4 {
+           font-size: 45px;
+       }
+       .pic1ani {
+          top: 255px;
+       }
+   
+       .sarokhpic2 {
+          top: 285px;
+       }
+   
+       .earth {
+          top: 245px;
+       }
+   
+       .sec-two h4 {
+           font-size: 55px;
+       }
+       
+       .sec-two p {
+           font-size: 40px;
+       }
+       
+       
+   .sec-three h4{
+       font-size: 85px; 
+       
+       }
+       
+       .sec-three h5 {
+           font-size: 55px;
+       }
+       
+       .footer h5 {
+           padding: 70px 0px;
+       }
+       
+   }
 
 
-@media screen and (max-width:1659px) and (min-width:1550px){
+@media  screen and (max-width:1750px) and (min-width:1650px) {
     .nav li {
-        font-size: 45px;
+       font-size: 45px;
     }
+       .header-container h1 {
+           font-size: 75px;
+       }
+       
+       .header-container p {
+           font-size: 60px;
+       }
+       .left , .right {
+           top: 290px;
+       }
+       .circle {
+           top: 95%;
+       }
+   
+       .cardcontent h2 {
+           font-size: 45px;
+       }
+   
+       .cardcontent p {
+           font-size: 35px;
+       }
+   
+       .card {
+           width: 290px;
+           height: 400px;
+           margin-left: 25px;
+           margin-right: 25px;
+       }
 
-    .header-container{
-        text-align: center;
-    }
+       .card:hover {
+        width: 295px;
+        height: 405px;
+       }
+   
+       .sec-one h3 {
+           font-size: 55px;
+       }
+   
+       .pic h4 {
+           font-size: 45px;
+       }
+       .pic1ani {
+          top: 235px;
+       }
+   
+       .sarokhpic2 {
+          top: 265px;
+       }
+   
+       .earth {
+          top: 225px;
+       }
+   
+       .sec-two h4 {
+           font-size: 55px;
+       }
+       
+       .sec-two p {
+           font-size: 40px;
+       }
+       
+       
+   .sec-three h4{
+       font-size: 80px; 
+       
+       }
+       
+       .sec-three h5 {
+           font-size: 50px;
+       }
+       
+       .footer h5 {
+           padding: 70px 0px;
+       }
+       
+   }
+
+@media  screen and (max-width:1650px) and (min-width:1500px) {
+ .nav li {
+    font-size: 45px;
+ }
     .header-container h1 {
-        font-size:95px;
-        margin-top: 140px;
-        margin-bottom: 60px;
-    }
-
-    .header-container p {
         font-size: 75px;
     }
-
-    .left {
-        left: 310px;
-        top: 300px;
-        width: 95px;
-        height: 95px;
     
+    .header-container p {
+        font-size: 60px;
+    }
+    .left , .right {
+        top: 290px;
+    }
+    .circle {
+        top: 95%;
+    }
+
+    .cardcontent h2 {
+        font-size: 45px;
+    }
+
+    .cardcontent p {
+        font-size: 35px;
+    }
+
+    .card {
+        width: 280px;
+        height: 390px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    .card:hover {
+        width: 285px;
+        height: 395px;
+       }
+
+    .sec-one h3 {
+        font-size: 50px;
+    }
+
+    .pic h4 {
+        font-size: 40px;
+    }
+    .pic1ani {
+       top: 220px;
+    }
+
+    .sarokhpic2 {
+       top: 250px;
+    }
+
+    .earth {
+       top: 210px;
+    }
+
+    .sec-two h4 {
+        font-size: 50px;
+    }
+    
+    .sec-two p {
+        font-size: 35px;
+    }
+    
+    
+.sec-three h4{
+    font-size: 75px; 
+    
+    }
+    
+    .sec-three h5 {
+        font-size: 45px;
+    }
+    
+    .footer h5 {
+        padding: 70px 0px;
+    }
+    
+}
+
+
+
+@media  screen and (max-width:1500px) and (min-width:1350px) {
+    
+    .circle {
+        top: 90%;
+    }
+    .pic1ani {
+       top: 200px;
+    }
+
+    .sarokhpic2 {
+       top: 230px;
+    }
+
+    .earth {
+       top: 180px;
+    }
+}
+
+
+
+@media  screen and (max-width:1350px) and (min-width:1250px) {
+
+    .header-container h1 {
+        font-size: 70px;
+    }
+    
+    .header-container p {
+        font-size: 50px;
+    }
+    .left {
+    left: 23%;
     }
     
     .right {
-        right: 310px;
-        top: 300px;
-        width: 95px;
-        height: 95px;
-        
+    right: 23%;
+    
+    }
+    .circle {
+        top: 90%;
     }
 
-    .heart {
-        right: 210px;
-        width: 250px;
-        height: 60px;
-        top: 25px;
+
+    .cardsFcontainer {
+        margin-top: -50px;
     }
-    
-    .threeheart {
-        left: 210px;
-        width: 250px;
-        height: 60px;
-        top: 25px;
+
+    .card {
+margin: 20px;
     }
-    
-    .space {
-        margin-top: 140px;
-        height: 70px;
-        overflow-x: hidden;
+
+    .cardsScontainer {
+        margin-top: -500px;
     }
-    
-    .pacman {
-        width: 360px;
-        height: 70px;
+    .pic1ani {
+       top: 190px;
     }
+
+    .sarokhpic2 {
+       top: 220px;
+    }
+
+    .earth {
+       top: 175px;
+    }
+    .pic h4 {
+        font-size: 30px;
+    }
+    .sec-three h4{
+        font-size: 65px;
+        }
+        
+        .sec-three h5 {
+            font-size: 38px;
+        }
 }
- */
+
+@media  screen and (max-width:1250px) and (min-width:1150px) {
+
+    .header-container h1 {
+        font-size: 65px;
+    }
+    
+    .header-container p {
+        font-size: 45px;
+    }
+    .left {
+        left: 22%;
+        }
+        
+        .right {
+        right: 22%;
+        
+        }
+    .circle {
+        top: 90%;
+    }
+
+
+    .cardsFcontainer {
+        margin-top: -50px;
+    }
+
+    .card {
+margin: 20px;
+    }
+
+    .cardsScontainer {
+        margin-top: -500px;
+    }
+    .pic1ani {
+       top: 165px;
+    }
+
+    .sarokhpic2 {
+       top: 195px;
+    }
+
+    .earth {
+       top: 155px;
+    }
+    .pic h4 {
+        font-size: 30px;
+    }
+    .sec-three h4{
+        font-size: 60px;
+        }
+        
+        .sec-three h5 {
+            font-size: 35px;
+        }
+}
+
+@media  screen and (max-width:1150px) and (min-width:1050px) {
+    .nav li {
+        font-size: 30px;
+    }
+
+    .header-container h1 {
+        font-size: 60px;
+    }
+    
+    .header-container p {
+        font-size: 40px;
+    }
+    .left {
+        left: 22%;
+        top: 270px;
+        }
+        
+        .right {
+            top: 270px;
+        right: 22%;
+        }
+        .sec-one h3 {
+            font-size: 35px;
+        }
+    .circle {
+        top: 90%;
+    }
+    .cardcontent h2 {
+        font-size: 35px;
+    }
+
+    .cardcontent p {
+        font-size: 30px;
+    }
+
+    .cardsFcontainer {
+        margin-top: -50px;
+    }
+
+    .card {
+margin: 20px;
+    }
+
+    .cardsScontainer {
+        margin-top: -500px;
+    }
+    .pic1ani {
+        width: 10%;
+       top: 155px;
+    }
+
+    .sarokhpic2 {
+        width: 6%;
+       top: 180px;
+    }
+
+    .earth {
+        width: 8%;
+       top: 145px;
+    }
+    .pic h4 {
+        font-size: 30px;
+    }
+
+    .sec-two h4 {
+        font-size: 35px;
+        margin-left: 30px;
+    }
+    
+    .sec-two p {
+        font-size: 20px;
+        margin-left: 30px;
+    }
+    .sec-three h4{
+        font-size: 55px;
+        }
+        
+        .sec-three h5 {
+            font-size: 30px;
+        }
+        .footer h5 {
+            font-size: 25px;
+        }
+        
+}
+
+
+@media  screen and (max-width:1050px) and (min-width:950px) {
+    .nav li {
+        font-size: 30px;
+    }
+    .heart ,.threeheart {
+        width: 13%;
+        top: 30px;
+    }
+    .header-container h1 {
+        font-size: 60px;
+    }
+    
+    .header-container p {
+        font-size: 40px;
+    }
+    .left {
+        left: 22%;
+        top: 270px;
+        }
+        
+        .right {
+            top: 270px;
+        right: 22%;
+        
+        }
+
+    .circle {
+        right: 5%;
+        width: 30%;
+        top: 83%;
+    }
+    .cardcontent h2 {
+        font-size: 35px;
+    }
+
+    .cardcontent p {
+        font-size: 30px;
+    }
+
+    .cardsFcontainer {
+        margin-top: -50px;
+    }
+
+    .card {
+        text-align: center;
+        width: 400px;
+margin: 20px;
+    }
+ 
+    .card:hover {
+        width: 405px;
+    }
+
+    .card img {
+        width: 65%;
+    }
+
+    .card button {
+        margin-top: 30px;
+
+    }
+
+    .four button {
+        margin-top: 60px;
+    }
+
+    .cardsScontainer {
+        margin-top: -500px;
+    }
+    .sec-one h3 {
+        font-size: 35px;
+    }
+    .pic1ani {
+        width: 10%;
+       top: 140px;
+    }
+
+    .sarokhpic2 {
+        width: 6%;
+       top: 165px;
+    }
+
+    .earth {
+        width: 8%;
+       top: 130px;
+    }
+    .pic h4 {
+        font-size: 30px;
+    }
+
+    .sec-two h4 {
+        font-size: 35px;
+        margin-left: 30px;
+    }
+    
+    .sec-two p {
+        font-size: 20px;
+        margin-left: 30px;
+    }
+    .sec-three h4{
+        font-size: 55px;
+        }
+        
+        .sec-three h5 {
+            font-size: 30px;
+        }
+        .footer h5 {
+            font-size: 25px;
+        }
+        
+}
+
+
+
+@media  screen and (max-width:950px) and (min-width:850px) {
+    .nav li {
+        font-size: 30px;
+    }
+    .heart ,.threeheart {
+        width: 13%;
+        top: 30px;
+    }
+    .header-container h1 {
+        font-size: 55px;
+    }
+    
+    .header-container p {
+        font-size: 35px;
+    }
+    .left {
+        left: 20%;
+        top: 270px;
+        }
+        
+        .right {
+            top: 270px;
+        right: 20%;
+        
+        }
+
+        .cardcontent {
+            margin: 160px 30px;
+        }
+
+    .circle {
+        right: 5%;
+        width: 35%;
+        top: 78%;
+    }
+    .cardcontent h2 {
+        font-size: 35px;
+    }
+
+    .cardcontent p {
+        font-size: 30px;
+    }
+
+    .cardsFcontainer {
+        margin-top: -10px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .card {
+        text-align: center;
+        width: 300px;
+margin: 20px;
+    }
+
+    .card:hover {
+        width: 305px;
+    }
+
+    .card img {
+        width: 65%;
+    }
+
+    .card button {
+        margin-top: 30px;
+
+    }
+
+    .four button {
+        margin-top: 60px;
+    }
+
+    .five img {
+        width: 200px;
+    }
+    .cardsScontainer {
+        margin-top: -500px;
+    }
+    .sec-one h3 {
+        font-size: 35px;
+    }
+    .pic1ani {
+        width: 10%;
+       top: 125px;
+    }
+
+    .sarokhpic2 {
+        width: 6%;
+       top: 150px;
+    }
+
+    .earth {
+        width: 8%;
+       top: 115px;
+    }
+    .pic h4 {
+        font-size: 25px;
+    }
+
+    .sec-two h4 {
+        font-size: 35px;
+        margin-left: 30px;
+    }
+    
+    .sec-two p {
+        font-size: 20px;
+        margin-left: 30px;
+    }
+    .sec-three h4{
+        font-size: 50px;
+        }
+        
+        .sec-three h5 {
+            font-size: 25px;
+        }
+        .footer h5 {
+            font-size: 25px;
+        }
+        
+}
+
+
+
+@media  screen and (max-width:850px) and (min-width:750px) {
+    .nav li {
+        font-size: 30px;
+    }
+    .heart ,.threeheart {
+        width: 14%;
+        top: 30px;
+    }
+    .header-container h1 {
+        font-size: 55px;
+    }
+    
+    .header-container p {
+        font-size: 35px;
+    }
+    .left {
+        width: 6%;
+        left: 18%;
+        top: 270px;
+        }
+        
+        .right {
+            width: 6%;
+            top: 270px;
+        right: 18%;
+        
+        }
+
+        .cardcontent {
+            margin: 160px 30px;
+        }
+
+    .circle {
+        right: 5%;
+        width: 35%;
+        top: 78%;
+    }
+    .cardcontent h2 {
+        font-size: 30px;
+    }
+
+    .cardcontent p {
+        font-size: 25px;
+    }
+.cardsFcontainer {
+    margin-top: -10px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+    .card {
+        text-align: center;
+        width: 350px;
+margin: 20px;
+    }
+
+    .card:hover {
+        width: 355px;
+    }
+
+    .card img {
+        width: 65%;
+    }
+
+    .card button {
+        margin-top: 30px;
+
+    }
+
+    .four button {
+        margin-top: 60px;
+    }
+
+    .five img {
+        width: 200px;
+    }
+
+    .cardsScontainer {
+        margin-top: -500px;
+    }
+    .sec-one h3 {
+        font-size: 30px;
+    }
+    .pic1ani {
+        width: 10%;
+       top: 110px;
+    }
+
+    .sarokhpic2 {
+        width: 6%;
+       top: 130px;
+    }
+
+    .earth {
+        width: 8%;
+       top: 100px;
+    }
+    .pic h4 {
+        font-size: 20px;
+    }
+
+    .sec-two h4 {
+        font-size: 35px;
+        margin-left: 30px;
+    }
+    
+    .sec-two p {
+        font-size: 20px;
+        margin-left: 30px;
+    }
+    .sec-three h4{
+        font-size: 45px;
+        }
+        
+        .sec-three h5 {
+            font-size: 23px;
+        }
+        .footer h5 {
+            font-size: 25px;
+        }
+        
+}
+
+@media  screen and (max-width:750px) and (min-width:650px) {
+    .nav li {
+        font-size: 30px;
+    }
+    .heart ,.threeheart {
+        width: 14%;
+        top: 32px;
+    }
+    .header-container h1 {
+        margin-top: 100px;
+        font-size: 50px;
+        margin-bottom: 50px;
+    }
+    
+    .header-container p {
+        font-size: 30px;
+    }
+    .left {
+        width: 5.5%;
+        left: 16%;
+        top: 220px;
+        }
+        
+        .right {
+            width: 5.5%;
+            top: 220px;
+        right: 16%;
+        
+        }
+
+        .space {
+            margin-top: 135px;
+        }
+
+
+        .cardcontent {
+            margin: 160px 30px;
+        }
+
+    .circle {
+        right: 5%;
+        width: 35%;
+        top: 78%;
+    }
+    .cardcontent h2 {
+        font-size: 30px;
+    }
+
+    .cardcontent p {
+        font-size: 25px;
+    }
+.cardsFcontainer {
+    margin-top: -50px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+    .card {
+        text-align: center;
+        width: 250px;
+margin: 20px;
+    }
+
+    .card:hover {
+        width: 255px;
+    }
+
+    .card img {
+        width: 65%;
+    }
+
+    .card button {
+        margin-top: 30px;
+
+    }
+
+    .four button {
+        margin-top: 60px;
+    }
+
+    .five img {
+        width: 200px;
+    }
+
+    .cardsScontainer {
+        margin-top: -500px;
+    }
+    .sec-one h3 {
+        font-size: 30px;
+    }
+    .pic1ani {
+        width: 9.5%;
+       top: 95px;
+       left: 46.5%;
+    }
+
+    .sarokhpic2 {
+        width: 6%;
+       top: 115px;
+    }
+
+    .earth {
+        width: 7.5%;
+       top: 85px;
+       left: 47.5%;
+    }
+    .pic h4 {
+        font-size: 20px;
+    }
+
+    .sec-two h4 {
+        font-size: 25px;
+        margin-left: 20px;
+    }
+    
+    .sec-two p {
+        font-size: 20px;
+        margin-left: 20px;
+    }
+    .sec-three h4{
+        font-size: 40px;
+        }
+        
+        .sec-three h5 {
+            font-size: 20px;
+        }
+        .footer h5 {
+            font-size: 20px;
+        }
+        
+}
+
+
+@media  screen and (max-width:650px) and (min-width:550px) {
+    .nav li {
+        font-size: 25px;
+    }
+    .heart ,.threeheart {
+        width: 14%;
+        top: 35px;
+    }
+    .header-container h1 {
+        margin-top: 100px;
+        font-size: 40px;
+        margin-bottom: 50px;
+    }
+    
+    .header-container p {
+        font-size: 25px;
+    }
+    .left {
+        width: 5.5%;
+        left: 16%;
+        top: 215px;
+        }
+        
+        .right {
+            width: 5.5%;
+            top: 215px;
+        right: 16%;
+        
+        }
+
+        .space {
+            margin-top: 135px;
+        }
+
+
+        .cardcontent {
+            margin: 140px 30px;
+        }
+
+    .circle {
+        right: 5%;
+        width: 35%;
+        top: 65%;
+    }
+    .cardcontent h2 {
+        font-size: 25px;
+    }
+
+    .cardcontent p {
+        font-size: 20px;
+    }
+.cardsFcontainer {
+    margin-top: -50px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+    .card {
+        text-align: center;
+        width: 250px;
+margin: 20px;
+    }
+
+    .card:hover {
+        width: 255px;
+    }
+
+    .card img {
+        width: 65%;
+    }
+
+    .card button {
+        margin-top: 30px;
+
+    }
+
+    .five img {
+        width: 200px;
+    }
+    .four button {
+        margin-top: 60px;
+    }
+
+
+
+    .cardsScontainer {
+        margin-top: -500px;
+    }
+    .sec-one h3 {
+        font-size: 25px;
+        letter-spacing: 2px;
+    }
+    .pic1ani {
+        width: 9.5%;
+       top: 80px;
+       left: 46.5%;
+    }
+
+    .sarokhpic2 {
+        width: 6%;
+       top: 105px;
+    }
+
+    .earth {
+        width: 7.5%;
+       top: 75px;
+       left: 47.5%;
+    }
+    .pic h4 {
+        font-size: 15px;
+    }
+
+    .pic2 {
+        margin-top: -60px;
+    }
+
+    .pic3 {
+        margin-top: -50px;
+    }
+    .sec-two h4 {
+        font-size: 20px;
+        margin-left: 20px;
+    }
+    
+    .sec-two p {
+        font-size: 15px;
+        margin-left: 20px;
+    }
+    .sec-three h4{
+        font-size: 35px;
+        }
+        
+        .sec-three h5 {
+            font-size: 18px;
+        }
+        .footer h5 {
+            font-size: 20px;
+        }
+        
+}
+
+
+@media  screen and (max-width:550px) and (min-width:450px) {
+    .nav li {
+        font-size: 20px;
+    }
+    .heart ,.threeheart {
+        width: 14%;
+        top: 35px;
+    }
+    .header-container h1 {
+        margin-top: 100px;
+        font-size: 30px;
+        margin-bottom: 50px;
+    }
+    
+    .header-container p {
+        font-size: 20px;
+    }
+    .left {
+        width: 6%;
+        left: 16%;
+        top: 193px;
+        }
+        
+        .right {
+            width: 6%;
+            top: 193px;
+        right: 16%;
+        
+        }
+
+        .space {
+            margin-top: 135px;
+        }
+
+
+        .cardcontent {
+            margin: 120px 30px;
+        }
+
+    .circle {
+        right: 5%;
+        width: 35%;
+        top: 60%;
+    }
+    .cardcontent h2 {
+        font-size: 20px;
+    }
+
+    .cardcontent p {
+        font-size: 20px;
+    }
+.cardsFcontainer {
+    margin-top: -50px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+    .card {
+        text-align: center;
+        width: 400px;
+        height: 200px;
+margin: 20px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+    }
+
+    .card:hover {
+        width: 405px;
+        height: 205px;
+    }
+
+    .card img {
+        width: 40%;
+        height: auto;
+    }
+    .one img {
+        padding-top: 0px;
+        width: 40%;
+       margin-left: 1px;
+    }
+    .card button {
+font-size: 28px;
+margin-right: 10px;
+    }
+
+    .four {
+        overflow-y: hidden;
+    }
+
+    .four button {
+        margin-bottom: 40px;
+    }
+
+    .five img {
+        width: 150px;
+    }
+    
+
+
+
+    .cardsScontainer {
+        margin-top: -500px;
+    }
+    .sec-one h3 {
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+
+    .pic1ani {
+        width: 9.5%;
+       top: 70px;
+       left: 46.5%;
+    }
+
+    .sarokhpic2 {
+        width: 6%;
+       top: 80px;
+    }
+
+    .earth {
+        width: 7.5%;
+       top: 60px;
+       left: 47.5%;
+    }
+    .pic h4 {
+        font-size: 15px;
+    }
+
+    .pic2 {
+        margin-top: -60px;
+    }
+
+    .pic3 {
+        margin-top: -50px;
+    }
+    .sec-two h4 {
+        font-size: 18px;
+        margin-left: 20px;
+    }
+    
+    .sec-two p {
+        font-size: 13px;
+        margin-left: 20px;
+    }
+
+    .sec-three h4{
+        font-size: 30px;
+        margin-top: 200px;
+        }
+        
+        .sec-three h5 {
+            font-size: 15px;
+            margin-bottom: 200px;
+        }
+        .footer h5 {
+            font-size: 13px;
+        }
+        
+}
+
+
+
+
+@media  screen and (max-width:450px) and (min-width:350px) {
+    .nav li {
+        font-size: 18px;
+    }
+    .heart ,.threeheart {
+        width: 14%;
+        top: 35px;
+    }
+    .header-container h1 {
+        margin-top: 100px;
+        font-size: 25px;
+        margin-bottom: 50px;
+    }
+    
+    .header-container p {
+        font-size: 18px;
+    }
+    .left {
+        width: 6%;
+        left: 16%;
+        top: 193px;
+        }
+        
+        .right {
+            width: 6%;
+            top: 193px;
+        right: 16%;
+        
+        }
+
+        .space {
+            margin-top: 135px;
+        }
+
+
+        .cardcontent {
+            margin: 150px 30px;
+        }
+
+    .circle {
+        right: 5%;
+        width: 35%;
+        top: 60%;
+    }
+    .cardcontent h2 {
+        font-size: 16px;
+    }
+
+    .cardcontent p {
+        font-size: 15px;
+    }
+.cardsFcontainer {
+    margin-top: -70px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+    .card {
+        text-align: center;
+        width: 350px;
+        height: 150px;
+margin: 20px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+    }
+
+    .card:hover {
+        width: 355px;
+        height: 155;
+    }
+
+    .card img {
+        width: 35%;
+        height: auto;
+        margin-left: 10px;
+    }
+    .one img {
+        padding-top: 0px;
+    }
+    .card button {
+font-size: 20px;
+margin-right: 10px;
+    }
+
+    .four {
+        overflow-y: hidden;
+    }
+
+    .four button {
+        margin-bottom: 40px;
+    }
+
+    .five img {
+        width: 130px;
+    }
+    
+
+
+
+    .cardsScontainer {
+        margin-top: -500px;
+    }
+    .sec-one h3 {
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+
+    .pic1ani {
+        width: 9.5%;
+       top: 50px;
+       left: 46.5%;
+    }
+
+    .sarokhpic2 {
+        width: 6%;
+       top: 60px;
+    }
+
+    .earth {
+        width: 7.5%;
+       top: 45px;
+       left: 47.5%;
+    }
+    .pic h4 {
+        font-size: 13px;
+    }
+
+    .pic2 {
+        margin-top: -40px;
+    }
+
+    .pic3 {
+        margin-top: -30px;
+    }
+
+    
+.loading-container {
+    margin-top: 50px;
+    margin-bottom: 30px;
+ }
+ 
+    .sec-two h4 {
+        font-size: 15px;
+        margin-left: 10px;
+    }
+    
+    .sec-two p {
+        font-size: 13px;
+        margin-left: 10px;
+    }
+
+    .sec-three h4{
+        font-size: 25px;
+        margin-top: 200px;
+        }
+
+        
+        .sec-three h5 {
+            font-size: 12px;
+            margin-bottom: 200px;
+        }
+        .footer h5 {
+            font-size: 13px;
+            padding: 50px 0px;
+        }
+        
+}
+
 

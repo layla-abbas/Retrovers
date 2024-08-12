@@ -1,6 +1,5 @@
 import line1 from '../images/line1.png'
-import circle from '../images/circle.png'
-import insidecircle from '../images/insidecircle.png'
+import circle from '../circle.json'
 import left from '../images/left.png'
 import right from '../images/right.png'
 import heart from '../Slide Heart.json'
@@ -112,8 +111,7 @@ export default function Home(){
 <button onClick={hangmanGame}>HangMan</button>
 </div>
 </div>
-<img src={circle} alt="" className='circle'/>
-<img src={insidecircle} alt="" className='insidecircle'/>
+<Lottie animationData={circle} className='circle' />
 <img src={line2} alt="" className='line2'/>
       </div>
 
