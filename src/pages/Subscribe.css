@@ -11,33 +11,33 @@ text-shadow: 2px 2px 5px white;
 
 
 .joinUs {
-    width: 100px;
-    height: 200px;
+    width: 6.5%;
+    height:auto;
    position: absolute;
-   top: -45px;
-   right: 490px;
+   top: .5%;
+   right: 32%;
 }
 .joinUs1 {
-    width: 100px;
-    height: 200px;
+    width: 6.5%;
+    height:auto;
    position: absolute;
-   top: -45px;
-   left: 490px;
+   top: .5%;
+   left: 32%;
 }
 
 .welcom {
-    width: 100px;
-    height: 200px;
+    width: 6.5%;
+    height:auto;
    position: absolute;
-   top: -45px;
-   right: 450px;
+   top: .5%;
+   right: 30%;
 }
 .welcom1 {
-    width: 100px;
-    height: 200px;
+    width: 6.5%;
+    height:auto;
    position: absolute;
-   top: -45px;
-   left: 450px;
+  top: .5%;
+   left: 30%;
 }
 
 .Logn-container {
@@ -65,35 +65,35 @@ text-shadow: 2px 2px 5px white;
 }
 
 .Sarokh {
-    width: 140px;
+    width: 9.5%;
     height: auto;
     position: absolute;
-    top: 130px;
-    left: 400px;
+    top: 19%;
+    left: 27%;
 }
 
 .gelaxy {
-    width: 140px;
+    width: 9%;
     height: auto;
     position: absolute;
-    top: 135px;
-    right: 400px;
+    top: 19.5%;
+    right: 26%;
 }
 
 .sub .Sarokh {
-    width: 160px;
+    width: 10%;
     height: auto;
     position: absolute;
-    top: 65px;
-    left: 400px;
+    top: 12%;
+    left:26%;
 }
 
 .sub .gelaxy {
-    width: 160px;
+    width: 10%;
     height: auto;
     position: absolute;
-    top: 75px;
-    right: 400px;
+    top: 12.5%;
+    right: 27%;
 }
 
 .form {
@@ -147,11 +147,11 @@ border: #0A1D56 2px solid;
     cursor: pointer;
 }
 .Duck {
-    width: 400px;
+    width: 27%;
     height: auto;
 position: absolute;
-bottom: 20px;
-right: 0px;
+bottom: 3%;
+right: 0%;
 }
 
 .Logn {
@@ -175,5 +175,760 @@ border: #0A1D56 2px solid;
 .Logn .log {
     background-color: transparent;
 }
+
+@media screen and (max-width:1250px) and (min-width:1150px) {
+    
+.join {
+    font-size: 40px;
+}
+
+.joinUs {
+    width: 6.5%;
+    height:auto;
+   position: absolute;
+   top: 1%;
+   right: 30%;
+}
+.joinUs1 {
+    width: 6.5%;
+    height:auto;
+   position: absolute;
+   top: 1%;
+   left: 30%;
+}
+
+.welcom {
+   top: 1%;
+   right: 28%;
+}
+.welcom1 {
+  top: 1%;
+   left: 28%;
+}
+
+    .Sarokh {
+        width: 9.5%;
+        height: auto;
+        position: absolute;
+        top: 19%;
+        left: 27%;
+    }
+    
+    .gelaxy {
+        width: 9%;
+        height: auto;
+        position: absolute;
+        top: 19.5%;
+        right: 26%;
+    }
+
+    .form input {
+        width: 325px;
+        height: 65px; 
+        margin: 10px;
+        font-size: 20px;
+    }
+
+    .Logn button {
+    width: 120px;
+    height: 50px;
+    }
+
+    
+
+}
+
+@media screen and (max-width:1150px) and (min-width:1000px) {
+    .form {
+        height: 75%;
+    }
+    .sub .Sarokh {
+        width: 10%;
+        top: 14%;
+        left:26%;
+    }
+    
+    .sub .gelaxy {
+        width: 10%;
+        top: 14.5%;
+        right: 27%;
+    }
+
+    .form button {
+        font-size: 30px;
+    width: 225px;
+    height: 55px;
+    }
+
+
+
+    .join {
+        font-size: 38px;
+    }
+    
+    .joinUs {
+        width: 6.5%;
+        height:auto;
+       position: absolute;
+       top: 1.5%;
+       right: 30%;
+    }
+    .joinUs1 {
+        width: 6.5%;
+        height:auto;
+       position: absolute;
+       top: 1.5%;
+       left: 30%;
+    }
+    
+    .welcom {
+       top: 1%;
+       right: 28%;
+    }
+    .welcom1 {
+      top: 1%;
+       left: 28%;
+    }
+    
+        .Sarokh {
+            width: 9.5%;
+            height: auto;
+            position: absolute;
+            top: 23%;
+            left: 26%;
+        }
+        
+        .gelaxy {
+            width: 9%;
+            height: auto;
+            position: absolute;
+            top: 23.5%;
+            right: 26%;
+        }
+    
+        .form input {
+            width: 300px;
+            height: 60px; 
+            margin: 10px;
+            font-size: 20px;
+        }
+    
+        .Logn button {
+        width: 120px;
+        height: 50px;
+        font-size: 25px;
+        }
+    
+
+
+}
+
+
+
+@media screen and (max-width:1000px) and (min-width:900px) {
+    .form {
+        height: 70%;
+        width: 45%;
+    }
+    .sub .Sarokh {
+        width: 11%;
+        top: 19%;
+        left:23%;
+    }
+    
+    .sub .gelaxy {
+        width: 11%;
+        top: 19.5%;
+        right: 23%;
+    }
+    .form button {
+        font-size: 28px;
+    width: 200px;
+    height: 55px;
+    }
+    .Duck {
+        bottom: 8%;
+        }
+
+
+
+        .join {
+            font-size: 35px;
+        }
+        
+        .Logn {
+            margin-top: 20px;
+        }
+        .joinUs {
+            width: 6.5%;
+           top: 2.5%;
+           right: 28%;
+        }
+        .joinUs1 {
+            width: 6.5%;
+           top: 2.5%;
+           left: 28%;
+        }
+        
+        .welcom {
+            top: 2.5%;
+            right: 26%;
+        }
+        .welcom1 {
+          top: 2.5%;
+           left: 26%;
+        }
+        
+            .Sarokh {
+                width: 9.5%;
+                height: auto;
+                position: absolute;
+                top: 22%;
+                left: 24%;
+            }
+            
+            .gelaxy {
+                width: 9%;
+                height: auto;
+                position: absolute;
+                top: 22.5%;
+                right: 24%;
+            }
+        
+            .form input {
+                width: 275px;
+                height: 55px; 
+                margin: 9px;
+                font-size: 20px;
+            }
+        
+            .Logn button {
+            width: 110px;
+            height: 45px;
+            font-size: 20px;
+            }
+        
+    
+        
+
+}
+
+
+@media screen and (max-width:900px) and (min-width:800px) {
+    .form {
+        height: 65%;
+        width: 45%;
+    }
+    .sub .Sarokh {
+        width: 12%;
+        top: 22%;
+        left:23%;
+    }
+    
+    .sub .gelaxy {
+        width: 12%;
+        top: 22.5%;
+        right: 23%;
+    }
+    .form button {
+        font-size: 25px;
+    width: 150px;
+    height: 50px;
+    }
+
+    .Duck {
+        bottom: 10%;
+        }
+
+
+        
+        .join {
+            font-size: 33px;
+        }
+        
+        .Logn {
+            margin-top: 10px;
+        }
+        .joinUs {
+            width: 7%;
+           top: 3%;
+           right: 28%;
+        }
+        .joinUs1 {
+            width: 7%;
+           top: 3%;
+           left: 28%;
+        }
+        
+        .welcom {
+            width: 7%;
+            top: 3%;
+            right: 24%;
+        }
+        .welcom1 {
+            width: 7%;
+            top: 3%;
+           left: 24%;
+        }
+        
+            .Sarokh {
+                width: 10.5%;
+                top: 21%;
+                left: 24%;
+            }
+            
+            .gelaxy {
+                width: 10%;
+                top: 21.5%;
+                right: 24%;
+            }
+        
+            .form input {
+                width: 250px;
+                height: 50px; 
+                margin: 9px;
+                font-size: 20px;
+            }
+        
+            .Logn button {
+            width: 100px;
+            height: 40px;
+            font-size: 20px;
+            }
+        
+    
+        
+}
+
+@media screen and (max-width:800px) and (min-width:700px) {
+    .form {
+        height: 60%;
+        width: 45%;
+    }
+    .sub .Sarokh {
+        width: 12%;
+        top: 24%;
+        left:23%;
+    }
+    
+    .sub .gelaxy {
+        width: 12%;
+        top: 24.5%;
+        right: 23%;
+    }
+
+    .form button {
+        font-size: 22px;
+    width: 125px;
+    height: 45px;
+    }
+
+    .Duck {
+    bottom: 12%;
+    }
+
+
+    
+        
+    .join {
+        font-size: 30px;
+    }
+    
+    .Logn {
+        margin-top: 0px;
+    }
+    .joinUs {
+        width: 7%;
+       top: 3%;
+       right: 26%;
+    }
+    .joinUs1 {
+        width: 7%;
+       top: 3%;
+       left: 26%;
+    }
+    
+    .welcom {
+        width: 7%;
+        top: 3%;
+        right: 24%;
+    }
+    .welcom1 {
+        width: 7%;
+        top: 3%;
+       left: 24%;
+    }
+    
+        .Sarokh {
+            width: 10.5%;
+            top: 21%;
+            left: 23%;
+        }
+        
+        .gelaxy {
+            width: 10%;
+            top: 21.5%;
+            right: 23%;
+        }
+    
+        .form input {
+            width: 240px;
+            height: 50px; 
+            margin: 9px;
+            font-size: 18px;
+        }
+    
+        .Logn button {
+        width: 100px;
+        height: 40px;
+        font-size: 18px;
+        }
+    
+}
+
+@media screen and (max-width:700px) and (min-width:600px) {
+    .form {
+        height: 55%;
+        width: 45%;
+    }
+    .sub .Sarokh {
+        width: 12%;
+        top: 27%;
+        left:23%;
+    }
+    
+    .sub .gelaxy {
+        width: 12%;
+        top: 27.5%;
+        right: 23%;
+    }
+
+ 
+    .form button {
+        font-size: 20px;
+    width: 120px;
+    height: 40px;
+    }
+
+    .Duck {
+    bottom: 16%;
+    }
+
+
+    
+        
+    .join {
+        font-size: 27px;
+    }
+    
+    .Logn {
+        margin-top: 0px;
+    }
+    .joinUs {
+        width: 7%;
+       top: 3%;
+       right: 26%;
+    }
+    .joinUs1 {
+        width: 7%;
+       top: 3%;
+       left: 26%;
+    }
+    
+    .welcom {
+        width: 7%;
+        top: 3%;
+        right: 24%;
+    }
+    .welcom1 {
+        width: 7%;
+        top: 3%;
+       left: 24%;
+    }
+    
+        .Sarokh {
+            width: 11.5%;
+            top: 23%;
+            left: 23%;
+        }
+        
+        .gelaxy {
+            width: 11%;
+            top: 23.5%;
+            right: 23%;
+        }
+    
+        .form input {
+            width: 220px;
+            height: 45px; 
+            margin: 7px;
+            font-size: 16px;
+        }
+    
+        .Logn button {
+        width:90px;
+        height: 35px;
+        font-size: 16px;
+        }
+}
+
+
+
+
+@media screen and (max-width:600px) and (min-width:500px) {
+    .form {
+        height: 50%;
+        width: 50%;
+    }
+    .sub .Sarokh {
+        width: 12%;
+        top: 29%;
+        left:21%;
+    }
+    
+    .sub .gelaxy {
+        width: 12%;
+        top: 29.5%;
+        right: 21%;
+    }
+
+    .form button {
+        font-size: 20px;
+    width: 120px;
+    height: 40px;
+    }
+
+    .Duck {
+    bottom: 19%;
+    }
+
+
+    
+        
+    .join {
+        font-size: 27px;
+    }
+    
+    .Logn {
+        margin-top: 0px;
+    }
+    .joinUs {
+        width: 10%;
+        top: 2.5%;
+        right: 20%;
+    }
+    .joinUs1 {
+        width: 10%;
+        top: 2.5%;
+       left: 20%;
+    }
+    
+    .welcom {
+        width: 10%;
+        top: 2.5%;
+        right: 18%;
+    }
+    .welcom1 {
+        width: 10%;
+        top: 2.5%;
+       left: 18%;
+    }
+    
+        .Sarokh {
+            width: 12.5%;
+            top: 24%;
+            left: 19%;
+        }
+        
+        .gelaxy {
+            width: 12%;
+            top: 24.5%;
+            right: 19%;
+        }
+    
+        .form input {
+            width: 220px;
+            height: 45px; 
+            margin: 7px;
+            font-size: 16px;
+        }
+    
+        .Logn button {
+        width:90px;
+        height: 35px;
+        font-size: 16px;
+        }
+}
+
+@media screen and (max-width:500px) and (min-width:400px) {
+    .form {
+        height: 45%;
+        width: 55%;
+    }
+    .sub .Sarokh {
+        width: 12%;
+        top: 32%;
+        left:19%;
+    }
+    
+    .sub .gelaxy {
+        width: 12%;
+        top: 32.5%;
+        right: 19%;
+    }
+
+    .form button {
+        font-size: 17px;
+    width: 100px;
+    height: 40px;
+    }
+
+    .Duck {
+    bottom: 20%;
+    right: -1.5%;
+    }
+
+            
+    .join {
+        font-size: 25px;
+    }
+    
+    .Logn {
+        margin-top: 0px;
+    }
+    .joinUs {
+        width: 10%;
+        top: 3%;
+        right: 18%;
+    }
+    .joinUs1 {
+        width: 10%;
+        top: 3%;
+       left: 18%;
+    }
+    
+    .welcom {
+        width: 10%;
+        top: 3%;
+        right: 14%;
+    }
+    .welcom1 {
+        width: 10%;
+        top: 3%;
+       left: 14%;
+    }
+    
+        .Sarokh {
+            width: 12.5%;
+            top: 27%;
+            left: 17%;
+        }
+        
+        .gelaxy {
+            width: 12%;
+            top: 27.5%;
+            right: 17%;
+        }
+    
+        .form input {
+            width: 190px;
+            height: 35px; 
+            margin: 7px;
+            font-size: 14px;
+        }
+    
+        .Logn button {
+        width:70px;
+        height: 27px;
+        font-size: 14px;
+        }
+}
+
+@media screen and (max-width:400px) and (min-width:300px) {
+    .form {
+        height: 40%;
+        width: 60%;
+    }
+    .sub .Sarokh {
+        width: 13%;
+        top: 35%;
+        left:15%;
+    }
+    
+    .sub .gelaxy {
+        width: 13%;
+        top: 35.5%;
+        right: 15%;
+    }
+
+    .form button {
+        font-size: 15px;
+    width: 85px;
+    height: 35px;
+    }
+    .Duck {
+        bottom: 20%;
+        right: -1%;
+        }
+    
+                
+        .join {
+            font-size: 23px;
+        }
+        
+        .Logn {
+            margin-top: 0px;
+        }
+        .joinUs {
+            width: 10%;
+            top: 3%;
+            right: 14%;
+        }
+        .joinUs1 {
+            width: 10%;
+            top: 3%;
+           left: 14%;
+        }
+        
+        .welcom {
+            width: 10%;
+            top: 3.5%;
+            right: 10%;
+        }
+        .welcom1 {
+            width: 10%;
+            top: 3.5%;
+           left: 10%;
+        }
+        
+            .Sarokh {
+                width: 12.5%;
+                top: 29%;
+                left: 15%;
+            }
+            
+            .gelaxy {
+                width: 12%;
+                top: 29.5%;
+                right: 15%;
+            }
+        
+            .form input {
+                width: 160px;
+                height: 30px; 
+                margin: 5px;
+                font-size: 12px;
+            }
+        
+            .Logn button {
+            width:60px;
+            height: 25px;
+            font-size: 12px;
+            }
+}
+
+
+
+
 
 
