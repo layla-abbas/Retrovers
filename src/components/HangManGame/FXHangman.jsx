@@ -98,12 +98,12 @@ let navigate = useNavigate();
 
                 <button id='reset' value="colors" onClick={reset}>Restart?</button>
                  
-                <form style={{marginTop:"50px" , fontSize:"25px" , }}>
+                <form style={{marginTop:"50px" ,}}>
                     <label className='Guess' htmlFor="group">Guess About: </label>
-                    <select style={{ fontSize:"25px" , padding:"6px" , color:"black" , textShadow:"2px 2px 5px white" }} name="group" id="group" value={group} onChange={handleChange}>
-                        <option value="colors">Colors</option>
-                        <option value="countries">Countries</option>
-                        <option value="animals">Animals</option>
+                    <select style={{  color:"black" , textShadow:"2px 2px 5px white" }} name="group" id="group" value={group} onChange={handleChange}>
+                        <option className='hangcolor' value="colors">Colors</option>
+                        <option className='hangcolor' value="countries">Countries</option>
+                        <option className='hangcolor' value="animals">Animals</option>
                     </select>
                 </form>
             </div>

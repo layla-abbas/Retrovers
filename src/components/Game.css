@@ -183,7 +183,7 @@ height: 130px;
       .Hangman-title {
         padding: 30px 0px;
           text-align: center;
-          font-size: 50px;
+          font-size: 45px;
           letter-spacing: 3px;
           color: white;
           text-shadow: 2px 2px 5px black;
@@ -197,17 +197,18 @@ height: 130px;
       
       .Hangman-Gussed-sec {
         margin-left: 100px;
-      
+      width: 70%;
       }
       
-      .Hangman img{
-        width: 300px;
+      .Hangman-Gussed-sec img{
+        width: 250px;
         max-height: auto;
       margin-bottom: 30px;
+    
       }
       
       .Hangman-key-sec {
-        margin-top: 150px;
+        margin-top: 100px;
        margin-left: 250px;
        margin-right: 250px;
         text-align: center;
@@ -218,22 +219,23 @@ height: 130px;
         font-size: 40px;
         text-align: center;
         margin-bottom: 10px;
+    
       }
       
       .Hangman-btns {
        text-align: center;
-        width: 750px;
+        
       }
       
       .Hangman button {
         border: none;
         font-family: inherit;
         font-weight: 700;
-        font-size: 35px;
+        font-size: 30px;
         cursor: pointer;
-        width: 70px;
-        height: 70px;
-        margin: 5px 5px;
+        width: 50px;
+        height: 50px;
+        margin: 4px 4px;
         letter-spacing: 1px;
         outline: none;
         background: #f7fcf1;
@@ -251,11 +253,12 @@ height: 130px;
       }
       
       #reset {
-        width: 220px;
-      margin-top: 50px;
+        width: 200px;
+      margin-top: 40px;
         background: #5FBDFF;
         transition: 0.2s;
         color: black;
+        font-size: 25px;
           text-shadow: 2px 2px 5px white;
       
       }
@@ -266,7 +269,7 @@ height: 130px;
       
       
       .Guessed {
-          font-size: 25px;
+          font-size: 20px;
           color: white;
           text-shadow: 2px 2px 5px black;
       }
@@ -275,10 +278,85 @@ height: 130px;
         color: white;
         text-shadow: 2px 2px 5px black;
         letter-spacing: 1px;
-        font-size: 25px;
+        font-size: 20px;
       }
       
+      @media screen and (max-width:1300px) and (min-width:1200px) {
+        .Hangman-title {
+          font-size: 45px;
+        }
+        .Hangman-word {
+          letter-spacing: 1em;
+          font-size: 40px;
+          text-align: center;
+          margin-bottom: 10px;
+      
+        }
+        .Hangman button {
+          width:45px ;
+          height: 45px;
+          font-size: 25px;
+        }
+        .Hangman img{
+          width: 220px;
+        margin-bottom: 30px;
+        }
 
+        #reset {
+          width: 190px;
+        margin-top: 40px;
+          font-size: 25px;
+        }
+
+        .Guessed , .Guess , .hangcolor {
+          font-size: 20px;
+      }
+ 
+      }
+
+            
+      @media screen and (max-width:1200px) and (min-width:1000px) {
+        .Hangman-title {
+          font-size: 45px;
+        }
+        .Hangman-word {
+            letter-spacing: 30px;
+            font-size: 40px;
+            text-align: center;
+            margin-bottom: 10px;
+        
+        }
+        .Hangman button {
+          width:45px ;
+          height: 45px;
+          font-size: 25px;
+        }
+        .Hangman img{
+          width: 220px;
+        margin-bottom: 30px;
+        }
+
+        #reset {
+          width: 160px;
+        margin-top: 40px;
+          font-size: 25px;
+        }
+
+        .Guessed , .Guess , .hangcolor {
+          font-size: 20px;
+      }
+
+      .Hangman-key-sec {
+        margin-left:200px ;
+        margin-right: 100px;
+      }
+    }
+
+      @media screen and (max-width:1100px) and (min-width:1000px) {
+        .match-title ,   .tictac-title , .boom-title{
+          margin-top: 200px;
+        }
+      }
 
  @media screen and (max-width:1000px) and (min-width:700px) {
   
@@ -292,6 +370,7 @@ height: 110px;
         }
         .match-title {
           font-size: 35px;
+          margin-top: 200px;
         }
         .match-turns ,  .match-Btn , .tictac-winner ,.tic-reset {
           font-size: 25px;
@@ -299,6 +378,7 @@ height: 110px;
 
         .tictac-title {
           font-size: 40px;
+          margin-top: 200px;
         }
         .tictac-square{
           height:130px;
@@ -318,9 +398,98 @@ height: 110px;
              }
              .boom-title {
              font-size: 45px;
+             margin-top: 200px;
              }
           
       }
+
+      @media screen and (max-width:1000px) and (min-width:850px) {
+
+        .Hangman-title {
+          margin-top: 50px;
+          font-size: 40px;
+        }
+        .Hangman-word {
+          letter-spacing: 30px;
+          font-size: 40px;
+          text-align: center;
+          margin-bottom: 10px;  
+      
+        }
+        .Hangman button {
+          width:40px ;
+          height: 40px;
+          font-size: 23px;
+        }
+        .Hangman img{
+          width: 220px;
+        margin-bottom: 30px;
+        }
+
+        #reset {
+          width: 160px;
+        margin-top: 40px;
+          font-size: 20px;
+        }
+
+        .Guessed , .Guess , .hangcolor  {
+          font-size: 18px;
+      }
+
+      .hangcolor {
+        padding: 3px;
+      }
+      .Hangman-key-sec {
+        margin-left:200px ;
+        margin-right: 50px;
+      }
+      }
+
+      
+      @media screen and (max-width:850px) and (min-width:700px) {
+
+        .Hangman-title {
+          margin-top: 50px;
+          font-size: 35px;
+        }
+        .Hangman-word {
+          letter-spacing: 30px;
+          font-size: 40px;
+          text-align: center;
+          margin-bottom: 10px;  
+      
+        }
+        .Hangman button {
+          width:40px ;
+          height: 40px;
+          font-size: 23px;
+        }
+        .Hangman-Gussed-sec img{
+          width: 250px;
+        margin-bottom: 30px;
+        }
+
+        #reset {
+          width: 140px;
+        margin-top: 40px;
+          font-size: 20px;
+        }
+
+        .Guessed , .Guess , .hangcolor  {
+          font-size: 18px;
+      }
+
+      .hangcolor {
+        padding: 3px;
+      }
+      .Hangman-key-sec {
+        margin-left:150px ;
+        margin-right: 50px;
+      }
+      }
+
+      
+
 
       @media screen and (max-width:700px) and (min-width:600px) {
         .tic-home {
@@ -334,6 +503,7 @@ height: 100px;
         }
         .match-title {
           font-size: 30px;
+          margin-top: 200px;
         }
         .match-turns ,  .match-Btn , .tictac-winner ,.tic-reset ,.boom-tryAgain{
           font-size: 20px;
@@ -341,6 +511,7 @@ height: 100px;
   
         .tictac-title {
           font-size: 40px;
+          margin-top: 200px;
         }
         .tictac-square{
           height:130px;
@@ -357,7 +528,51 @@ height: 100px;
              .boom-title {
              font-size: 35px;
              margin-bottom: 20px;
+             margin-top: 200px;
              }
+
+
+
+             .Hangman-title {
+              margin-top: 50px;
+              font-size: 35px;
+            }
+            .Hangman-word {
+              letter-spacing: 25px;
+              font-size: 30px;
+              text-align: center;
+              margin-bottom: 10px;  
+          
+            }
+            .Hangman button {
+              width:30px ;
+              height: 30px;
+              font-size: 15px;
+            }
+
+            .Hangman-Gussed-sec img{
+              width: 700px;
+            margin-bottom: 40px;
+            }
+    
+            #reset {
+              width: 120px;
+            margin-top: 40px;
+              font-size: 15px;
+            }
+    
+            .Guessed , .Guess , .hangcolor  {
+              font-size: 18px;
+          }
+    
+          .hangcolor {
+            margin-top: 3px;
+            padding: 2px;
+          }
+          .Hangman-key-sec {
+            margin-left:200px ;
+            margin-right: 50px;
+          }
       }
 
       @media screen and (max-width:600px) and (min-width:500px) {
@@ -371,6 +586,7 @@ width: 80px;
 height: 80px;
         }
         .match-title {
+          margin-top: 200px;
           font-size: 25px;
         }
         .match-turns ,  .match-Btn , .tictac-winner ,.tic-reset , .boom-tryAgain {
@@ -378,6 +594,7 @@ height: 80px;
         }
         .tictac-title {
           font-size: 35px;
+          margin-top: 200px;
         }
         .tictac-square{
           height:110px;
@@ -394,7 +611,53 @@ height: 80px;
              .boom-title {
              font-size: 30px;
              margin-bottom: 20px;
+             margin-top: 200px;
              }
+
+
+             
+             .Hangman-title {
+              margin-top: 200px;
+              font-size: 30px;
+              margin-bottom: -100px;
+            }
+            .Hangman-word {
+              letter-spacing: 20px;
+              font-size: 20px;
+              text-align: center;
+              margin-bottom: 10px;  
+          
+            }
+            .Hangman button {
+              width:25px ;
+              height: 25px;
+              font-size: 13px;
+              margin: 2px;
+            }
+
+            .Hangman-Gussed-sec img{
+              width: 700px;
+            margin-bottom: 40px;
+            }
+    
+            #reset {
+              width: 100px;
+            margin-top: 40px;
+              font-size: 13px;
+            }
+    
+            .Guessed , .Guess , .hangcolor  {
+              font-size: 15px;
+          }
+    
+          .hangcolor {
+            margin-top: 3px;
+            padding: 2px;
+          }
+          .Hangman-key-sec {
+            margin-left:200px ;
+            margin-right: 50px;
+          }
       }
 
       @media screen and (max-width:500px) and (min-width:400px) {
@@ -408,6 +671,7 @@ width: 65px;
 height: 65px;
         }
         .match-title {
+          margin-top: 200px;
           font-size: 20px;
         }
         .match-turns ,  .match-Btn , .tictac-winner ,.tic-reset , .boom-tryAgain{
@@ -415,6 +679,7 @@ height: 65px;
         }
         .tictac-title {
           font-size: 35px;
+          margin-top: 200px;
         }
         .tictac-square{
           height:100px;
@@ -431,7 +696,53 @@ height: 65px;
              .boom-title {
              font-size: 25px;
              margin-bottom: 20px;
+             margin-top: 200px;
              }
+
+             
+             
+             .Hangman-title {
+              margin-top: 200px;
+              font-size: 30px;
+              margin-bottom: -100px;
+            }
+            .Hangman-word {
+              letter-spacing: 20px;
+              font-size: 20px;
+              text-align: center;
+              margin-bottom: 10px;  
+          
+            }
+            .Hangman button {
+              width:20px ;
+              height: 20px;
+              font-size: 10px;
+              margin: 1px;
+            }
+
+            .Hangman-Gussed-sec img{
+              width: 700px;
+            margin-bottom: 40px;
+            }
+    
+            #reset {
+              width: 100px;
+            margin-top: 40px;
+              font-size: 13px;
+            }
+    
+            .Guessed , .Guess , .hangcolor  {
+              font-size: 15px;
+          }
+    
+          .hangcolor {
+            margin-top: 3px;
+            padding: 2px;
+          }
+          .Hangman-key-sec {
+            margin-left:200px ;
+            margin-right: 50px;
+          }
       }
 
       @media screen and (max-width:400px) and (min-width:300px) {
@@ -445,6 +756,7 @@ width: 55px;
 height: 55px;
         }
         .match-title {
+          margin-top: 150px;
           font-size: 15px;
         }
         .match-turns ,  .match-Btn , .tictac-winner ,.tic-reset ,.boom-tryAgain {
@@ -453,6 +765,7 @@ height: 55px;
 
         .tictac-title {
           font-size: 35px;
+          margin-top: 200px;
         }
         .tictac-square{
           height:90px;
@@ -470,6 +783,33 @@ height: 55px;
              .boom-title {
              font-size: 20px;
              margin-bottom: 20px;
+             margin-top: 150px;
              }
       }
 
+
+      @media screen and (width:1024px) and (height:600px){
+.match-title {
+  margin-top: 0px;
+}
+.match-front , .match-cover  {
+  width: 95px;
+  height: 95px;
+          }
+
+      }
+
+      @media screen and (width:360px) and (height:740px){
+.tictac-title{
+  margin-top: 100px;
+}
+        
+              }
+
+              @media screen and (width:360px) and (height:640px){
+                .tictac-title{
+                  margin-top: 80px;
+                }
+                        
+                              }
+                

@@ -117,7 +117,7 @@ export default function Home(){
 
 <div className="section-container">
 <div className="section sec-one">
-<h3>To Be A MeMber Of Our Family You :</h3>
+<h3>To Be A MeMber Of Our Family :</h3>
 <div className="pic1 pic">
 <Lottie animationData={cat} className='pic1ani'/>
 <div className='pi'>
@@ -136,7 +136,7 @@ export default function Home(){
     <Lottie animationData={earth} className='earth' />
 <div className='pi'>
 <img src={pic3} alt="" />
-<h4>Enter Your Ur User Name , Email , Password </h4>
+<h4>Enter Ur User Name , Email , Password </h4>
 </div>
 </div>
 <div className='loading-container'>
@@ -147,7 +147,7 @@ export default function Home(){
 <div className="sec-two">
     <div>
     <h4>Our Future Goals :</h4>
-    <p> We Aim To Revive Old Games In A New And Fun Way .</p>
+    <p> We Aim To Revive Old Games In A New And Fun Way && Make Our Own World For Retro Games  .</p>
     </div>
 <Lottie animationData={world} className='world' />
 </div>

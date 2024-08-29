@@ -46,7 +46,6 @@ transition: 1s;
 .nav ul:hover {
     border: #261a46 solid 2px;
     box-shadow: 2px 2px 5px #261a46;
-    border-radius: 6px;
 cursor: pointer;
 background: #FBFF00 url('../images/pixelBtn.png');
 transition-delay: 0.8s;
@@ -80,7 +79,7 @@ animation: Btn 1s steps(8) forwards;
     font-size: 75px;
     color: white;
     text-shadow: 2px 2px 5px black;
-    margin-top: 150px;
+    margin-top: 140px;
    margin-bottom: 60px;
     font-weight: 900;
  }
@@ -112,7 +111,7 @@ right: 25%;
 .space {
     background-color: #FBFF00;
     height:auto;
-    margin-top: 165px;
+    margin-top: 168px;
     overflow-x: hidden;
 }
 
@@ -393,8 +392,8 @@ text-align: center;
     margin-left: 50px;
     color: white;
     text-shadow: 2px 2px 5px black;
-    font-size: 30px;
-    letter-spacing: 1px;
+    font-size:20px;
+    letter-spacing: 0px;
     width: 60%;
 }
 
@@ -514,7 +513,7 @@ margin-bottom: 300px;
        }
        
        .sec-two p {
-           font-size: 40px;
+           font-size: 35px;
        }
        
        
@@ -528,6 +527,7 @@ margin-bottom: 300px;
        }
        
        .footer h5 {
+        font-size: 20px;
            padding: 70px 0px;
        }
        
@@ -601,7 +601,7 @@ margin-bottom: 300px;
        }
        
        .sec-two p {
-           font-size: 40px;
+           font-size: 35px;
        }
        
        
@@ -615,6 +615,7 @@ margin-bottom: 300px;
        }
        
        .footer h5 {
+        font-size: 20px;
            padding: 70px 0px;
        }
        
@@ -683,7 +684,7 @@ margin-bottom: 300px;
        }
        
        .sec-two p {
-           font-size: 40px;
+           font-size: 35px;
        }
        
        
@@ -697,6 +698,7 @@ margin-bottom: 300px;
        }
        
        .footer h5 {
+        font-size: 20px;
            padding: 70px 0px;
        }
        
@@ -704,10 +706,10 @@ margin-bottom: 300px;
 
 @media  screen and (max-width:1650px) and (min-width:1500px) {
  .nav li {
-    font-size: 45px;
+    font-size: 35px;
  }
     .header-container h1 {
-        font-size: 75px;
+        font-size: 75px;     
     }
     
     .header-container p {
@@ -763,7 +765,7 @@ margin-bottom: 300px;
     }
     
     .sec-two p {
-        font-size: 35px;
+        font-size: 30px;
     }
     
     
@@ -777,6 +779,7 @@ margin-bottom: 300px;
     }
     
     .footer h5 {
+        font-size: 20px;
         padding: 70px 0px;
     }
     
@@ -785,7 +788,7 @@ margin-bottom: 300px;
 
 
 @media  screen and (max-width:1500px) and (min-width:1350px) {
-    
+ 
     .circle {
         top: 90%;
     }
@@ -800,11 +803,15 @@ margin-bottom: 300px;
     .earth {
        top: 180px;
     }
+    .footer h5 {
+        font-size: 20px;
+    }
 }
 
 
 
 @media  screen and (max-width:1350px) and (min-width:1250px) {
+
 
     .header-container h1 {
         font-size: 70px;
@@ -858,12 +865,17 @@ margin: 20px;
         .sec-three h5 {
             font-size: 38px;
         }
+        .footer h5 {
+            font-size: 20px;
+        }
 }
 
 @media  screen and (max-width:1250px) and (min-width:1150px) {
 
+
     .header-container h1 {
         font-size: 65px;
+      
     }
     
     .header-container p {
@@ -912,17 +924,15 @@ margin: 20px;
         }
         
         .sec-three h5 {
-            font-size: 35px;
+            font-size: 15px;
         }
 }
 
 @media  screen and (max-width:1150px) and (min-width:1050px) {
-    .nav li {
-        font-size: 30px;
-    }
 
     .header-container h1 {
         font-size: 60px;
+      
     }
     
     .header-container p {
@@ -997,7 +1007,7 @@ margin: 20px;
             font-size: 30px;
         }
         .footer h5 {
-            font-size: 25px;
+            font-size: 15px;
         }
         
 }
@@ -1110,7 +1120,7 @@ margin: 20px;
             font-size: 30px;
         }
         .footer h5 {
-            font-size: 25px;
+            font-size: 15px;
         }
         
 }
@@ -1233,7 +1243,7 @@ margin: 20px;
             font-size: 25px;
         }
         .footer h5 {
-            font-size: 25px;
+            font-size: 15px;
         }
         
 }
@@ -1358,7 +1368,7 @@ margin: 20px;
             font-size: 23px;
         }
         .footer h5 {
-            font-size: 25px;
+            font-size: 15px;
         }
         
 }
@@ -1490,7 +1500,7 @@ margin: 20px;
             font-size: 20px;
         }
         .footer h5 {
-            font-size: 20px;
+            font-size: 12px;
         }
         
 }
@@ -1632,7 +1642,7 @@ margin: 20px;
             font-size: 18px;
         }
         .footer h5 {
-            font-size: 20px;
+            font-size: 12px;
         }
         
 }
@@ -1794,7 +1804,7 @@ margin-right: 10px;
             margin-bottom: 200px;
         }
         .footer h5 {
-            font-size: 13px;
+            font-size: 10px;
         }
         
 }
@@ -1807,28 +1817,29 @@ margin-right: 10px;
         font-size: 18px;
     }
     .heart ,.threeheart {
-        width: 14%;
-        top: 35px;
+        width: 16%;
+        top: 33px;
     }
     .header-container h1 {
         margin-top: 100px;
-        font-size: 25px;
+        font-size: 35px;
         margin-bottom: 50px;
     }
     
     .header-container p {
         font-size: 18px;
+    display: none;
     }
     .left {
-        width: 6%;
-        left: 16%;
-        top: 193px;
+        width: 8%;
+        left: 8%;
+        top: 194px;
         }
         
         .right {
-            width: 6%;
-            top: 193px;
-        right: 16%;
+            width: 8%;
+            top: 194px;
+        right: 8%;
         
         }
 
@@ -1965,7 +1976,7 @@ margin-right: 10px;
             margin-bottom: 200px;
         }
         .footer h5 {
-            font-size: 13px;
+            font-size: 10px;
             padding: 50px 0px;
         }
         
