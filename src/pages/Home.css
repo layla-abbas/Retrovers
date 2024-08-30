@@ -2002,6 +2002,12 @@ margin-right: 10px;
     }
 }
 
+@media  screen and (width:1024px) {
+    .circle {
+        top: 80%;
+    }
+}
+
 @media  screen and (width:1280px)  and (height:800px){
     .circle {
         top: 105%;
