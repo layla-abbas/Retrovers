@@ -25,6 +25,7 @@ text-shadow: 2px 2px 5px white;
    left: 32%;
 }
 
+
 .welcom {
     width: 6.5%;
     height:auto;
@@ -44,6 +45,7 @@ text-shadow: 2px 2px 5px white;
     background-color: #e7e95e;
     height: 100vh;
     overflow-y: hidden;
+    z-index: -10;
 }
 .sub-container {
     background-color: #e7e95e;
@@ -68,7 +70,7 @@ text-shadow: 2px 2px 5px white;
     width: 9.5%;
     height: auto;
     position: absolute;
-    top: 19%;
+    top: 15%;
     left: 27%;
 }
 
@@ -76,10 +78,19 @@ text-shadow: 2px 2px 5px white;
     width: 9%;
     height: auto;
     position: absolute;
-    top: 19.5%;
+    top: 15.5%;
     right: 26%;
 }
 
+.family .Sarokh {
+    top: 0%;  
+    left: 22%;
+}
+
+.family .gelaxy {
+    top: .5%;
+    right: 22%;
+}
 .sub .Sarokh {
     width: 10%;
     height: auto;
@@ -102,9 +113,18 @@ text-shadow: 2px 2px 5px white;
 display: flex;
 align-items: center;
 justify-content: center;
- height: 80%;
+ height: 95%;
 }
 
+.family .form {
+    margin-top: 10px;
+    border: 6px solid #0A1D56;
+    width: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+ height: 95%; 
+}
 .form label{
     display: block;
     font-size: 35px;

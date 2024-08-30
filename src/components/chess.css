@@ -76,6 +76,7 @@ html,body {
   .chessBtn {
     padding: 4px 15px;
     font-size: 15px;
+    display: none;
   }
 }
 
@@ -83,6 +84,7 @@ html,body {
   .chessBtn {
     padding: 4px 15px;
     font-size: 10px;
+    display: none;
   }
 }
 
@@ -90,5 +92,6 @@ html,body {
   .chessBtn {
     padding: 4px 15px;
     font-size: 10px;
+    display: none;
   }
 }
