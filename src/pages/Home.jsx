@@ -136,7 +136,7 @@ export default function Home(){
     <Lottie animationData={earth} className='earth' />
 <div className='pi'>
 <img src={pic3} alt="" />
-<h4>Enter Ur User Name , Email , Password </h4>
+<h4>Enter Ur User Name , Password </h4>
 </div>
 </div>
 <div className='loading-container'>
